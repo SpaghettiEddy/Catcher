@@ -1,0 +1,6463 @@
+fileFormatVersion: 2
+guid: 7ffa5867c37484271acb50b4e8c8321d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bedsheets2_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 358
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4729c8f0d414149e18fbd41f0557696e
+      internalID: -373589036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 355
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ea4eff430bc4da1ab9eb08baa2351d
+      internalID: 1706255205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 355
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4aa2390e5f5412db492f5bcc444a58
+      internalID: -1466889458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 359
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947a45c33b2a841238172107a0f7df18
+      internalID: 1725129827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 357
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db322b1f3bd394267958ca0abf040133
+      internalID: 719667146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_5
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 354
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b4d152e53254348b82d0b29de09c75
+      internalID: 433480699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 354
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847e2632fae6440258fbefb86a651c79
+      internalID: -981530528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_7
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 362
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9e991903f4c4da897f16f7866c9773
+      internalID: -314539627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_8
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 357
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a492d7fe0047943b390d83820408db7c
+      internalID: -2005030795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 354
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04891ac7ef8a342d3842f3b11c99ee6e
+      internalID: 1719068576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 354
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7de476d72ca40b4aef9359e5a39948
+      internalID: -1133020614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 362
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d5f6cf04e6d45f7a780185d73fcd3a
+      internalID: -341891795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 358
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac20a332c6f03443bb007eeac4c26953
+      internalID: 1390701253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 355
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deff6c6a7aa94c55b5ed2063eef2354
+      internalID: -827236657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_14
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 355
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1389c000cd488eaf32a8eaa1b607e
+      internalID: 1543949778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 359
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a129d9777e384270a310225206778f1
+      internalID: 89518734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 357
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d682fb714214977938734041414f7d
+      internalID: 1228245078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_17
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 354
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f90b8ff54ad49f3a5f9a66214f8c95
+      internalID: -1493932874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 354
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc7ab2ba5c4441369178128bf0c6aac
+      internalID: 767727869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_19
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 362
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362bebcbd67864d6a839b24ca6693ad8
+      internalID: -1329497054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_20
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 357
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54849557fae446e2bd75e5eddc9cec8
+      internalID: 128200030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_21
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 355
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98657f6fabdd483582528b648c19129
+      internalID: -361952015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_22
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 355
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabbfa5e2e6d649738a6e04684b1fa68
+      internalID: 1823816265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_23
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 362
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb09c541005574a64a01c14109cf62fa
+      internalID: -1543680558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 326
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb890511fed41b3b87dce1fef40d5e
+      internalID: -1152570654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 323
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fa5f31f257349f6a252791c8c08711
+      internalID: 1070041542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 323
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d22da294b0b4f14978a30132125283
+      internalID: -1692805579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_27
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 327
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b9143b7cf9545fa89356dd8d29977c
+      internalID: -1187606742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_28
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 325
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689109620b0784943a05e96feabf68e4
+      internalID: -1977747665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 322
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4069e0880bea48cb94bc326f79eb7ac
+      internalID: 1334750374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 322
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60c292aabd0f4f32b502854853e734a
+      internalID: -802722450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_31
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 330
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74123a03b05d4fae9a3c4b2dfdc72bb
+      internalID: -1787053302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_32
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 325
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070a50da85a30476ca5cec64fa0cc8ec
+      internalID: 1283958459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_33
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 322
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a98e04120c34d38876060ad78e8b73
+      internalID: 1133390273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_34
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 322
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda9a0d32cb184ccea40758228d6c518
+      internalID: -1010061350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_35
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 330
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd75c6ef367440e8b83e73ea421ccdc
+      internalID: -1885653115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_36
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 326
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d61e7750925f49e9a1c9ed289b51e6e
+      internalID: 2107510413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_37
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 323
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccaffb5a714149a3911f35987c34b1b
+      internalID: -1438046524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_38
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 323
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56700251e39540fa978976024801870
+      internalID: -689748466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_39
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 327
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae674bbebd1eb466da0c4f14bfb4ce29
+      internalID: -1295510317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_40
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 325
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e98af050e006440590944dd059ce170
+      internalID: -108712792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_41
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 322
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6611f876735db4136a00ce1333fde85f
+      internalID: -1623508300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_42
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 322
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad542aaa22ae44a15912b7a4da59378d
+      internalID: 1457687692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_43
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 330
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a353be73dcfc4c7aa93c298f26ce3fe
+      internalID: 285994642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_44
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 325
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e4961b2a05a41fbb3743f8e56b01c1
+      internalID: -404305550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_45
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 323
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085b1a54f8baa4626b79b768fca47798
+      internalID: 683373886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_46
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 323
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f83c28b9b664d99978a671b4498525
+      internalID: -1563130318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_47
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 330
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510c015d9180a4ed58ec987ff204d4b3
+      internalID: -1681019610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 294
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d13ac46a80ee4dcc9400bc85a25cd3d
+      internalID: -80375865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_49
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 291
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ccdb126bbe44b4e907879972753b63
+      internalID: -1399898352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_50
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 291
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c0484d29b8248c1b62eb2be4a002d2
+      internalID: 30744793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_51
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 295
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c166e9234d5406fb48b4f69c7edb1f
+      internalID: -197050358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_52
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 293
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc1aba0eddcd4f079287c820a95a5b5
+      internalID: -960573841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_53
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 290
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b5d9df005be4378895a8e54069f4ea
+      internalID: 26831186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_54
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 290
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99333cec53644163ac9df5dfd3a4e6c
+      internalID: -851600792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_55
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 298
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1794caa7c72e4dc595ec2e148076ed2
+      internalID: -56483379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_56
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 293
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b432a2a2a96423d82d9e09a45889ef
+      internalID: -956473933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_57
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 290
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebacc3f98957d43978c969fa7b014eba
+      internalID: -147822054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_58
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 290
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b0324cf9b404b24924f4a12fe2e0aa
+      internalID: 111557506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_59
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 298
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7977ac1245b9a4761b48c2462901d93a
+      internalID: -2098119480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_60
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 294
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daac4e26e32eb44faac7204815d8328a
+      internalID: 404821628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_61
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 291
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4f936a0cacf4ab3952063b760aba0b
+      internalID: -2070885587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_62
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 291
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88543bd0b1d44bd192e6afdf8e0afb6
+      internalID: 1751745350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_63
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 295
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e681477020240de9c4090fe7479524
+      internalID: -152777610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_64
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 293
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a226ca0f9574e04aff6004fee4bd66
+      internalID: -1151390972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_65
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 290
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3e5a39ba9bc43feb68092aa95ceb20
+      internalID: -1551489046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_66
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 290
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a193036251146491fa2736c8b292026f
+      internalID: 526075407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_67
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 298
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86379b5b6ea1b46cf8c2b412b022d024
+      internalID: -1178297586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_68
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 293
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9affc3531e78446c819d773865eb0c6
+      internalID: 263009681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_69
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 291
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032a7198b955b4d658b3c840507e493d
+      internalID: 620467175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_70
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 291
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd81a3e4be3644849894ec36a51e433
+      internalID: 1890952760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_71
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 298
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62af8041e6f148bb8dfd9ab8c9bf56b
+      internalID: 1117950255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_72
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 262
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cac20b1eebf4462ac5029f97fbb5d0
+      internalID: -1085741380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_73
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 259
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1a180c842ef4bc6ab33d86b89bc2c0
+      internalID: -1774010067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_74
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 259
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d7430910b034bd3a21dd654270058a
+      internalID: 1087379302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 263
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a081a302e5444c39b258d2145e5df4
+      internalID: -53423050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 261
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2c6bbda8ad2496ab431fd80852c699
+      internalID: 1421449526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_77
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 258
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b43804267cc14c6191d003bb1c22820
+      internalID: -667520227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_78
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 258
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36f15d2f8efc4dc5a8ea125a7ce65ca
+      internalID: -531747221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_79
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 266
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153ed84b0e8304d289a0ed2dab69ab30
+      internalID: 628353399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_80
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 261
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523968e1570514b77be195327fe23509
+      internalID: 733686880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_81
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 258
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b918b9ebbab8c418c8cb7fb1dd35b20e
+      internalID: -1335228395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_82
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 258
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128d4198572c44dcfb0d97a173b19fa4
+      internalID: 1323779756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_83
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 266
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e4f606ce48c48509d197911465dd33
+      internalID: -1509197452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_84
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 262
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cea37802e55422181b427c5b3d1b58
+      internalID: -1496092545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_85
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 259
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9511e864b70fd49adb408fc355f59bf1
+      internalID: -192943414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_86
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 259
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a101abe2bf18e4eebb4ab62ffb1a6c5d
+      internalID: 1886515561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_87
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 263
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df89af189612a461ba8dcb94cb72d9d4
+      internalID: -1001303773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_88
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 261
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b0afb53227349fe894f78b305feffb
+      internalID: -222906556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_89
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 258
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3160266e58399401b8686ea61ac126ac
+      internalID: -1636975380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_90
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 258
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9c80063fd3649269ea590e139b5632
+      internalID: 1941044201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_91
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 266
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffdce035d02e42e19b85ff18ebe4b1f
+      internalID: 1386765134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_92
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 261
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bceed3f5b121340c8ad530354487abf2
+      internalID: -1215143368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_93
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 259
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3472095caeac48f193a8f2cb718799c
+      internalID: 322371675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_94
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 259
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afa459f83d9846f691bd322d26865c0
+      internalID: -617311483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_95
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 266
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce7eaf01b60744a586a0006bca40b4c
+      internalID: 858505786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_96
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 230
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9a25c87f1884e5d9fba5c5dd37e583
+      internalID: 1929002637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_97
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 227
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9777336ea45774bbdad2463e56d6df00
+      internalID: -1863580461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_98
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 227
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2324b7984fd19432f94c692fd4c68896
+      internalID: -703704216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_99
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 231
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bb352e982c0492bbbb63363ef05c80
+      internalID: 654045943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_100
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 229
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3a469f923c64defa43b25679973c95
+      internalID: 1530843693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_101
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 226
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c646760de8eac43f9afbea8349e3797c
+      internalID: -642247277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_102
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 226
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0703102920d2c499285e80976bdd3769
+      internalID: 88203870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_103
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 234
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f0f72bf86ca494291e893d6247d8bb
+      internalID: 158886405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_104
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 229
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18b18b133aa14166b679601e3330221
+      internalID: -921245700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_105
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 226
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c0a139ab60144ca954ceb62ec9ad96
+      internalID: -1391000225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_106
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 226
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bedab325882a49d48b7d1220b164e65
+      internalID: -420230236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_107
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 234
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c8870ee3d374912867762cf434c4c7
+      internalID: -775622921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_108
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 231
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc1077f8493b42a29d81939140ef638
+      internalID: 1127022455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_109
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 227
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8264aac10b48846c2aa690a692f47920
+      internalID: -292771429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_110
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 227
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4501cd074c324ce3ba7b7efe5b6f435
+      internalID: 964869794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_111
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 231
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308f3014bcf444b168d0d3ba69863c92
+      internalID: 1725747748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_112
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 229
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce4eb8cb16bb495ea2613af3715a6a7
+      internalID: 274276715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_113
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 226
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca93a4cbb4164a4b999be421b387f98
+      internalID: -1756295870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_114
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 226
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38056b5048c294be885b8c77eb4579d2
+      internalID: 1563480125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_115
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 234
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3ab1e388003462fbf066b0a05e77dd
+      internalID: -720194546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_116
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 229
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6ebdb4b96b345d0bb5e836a6cae898
+      internalID: 1278401549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_117
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 227
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726906ef2e0684aa0ab4b337ec0e3573
+      internalID: 782338031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_118
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 227
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17a588e714ee4428b3fd8f578488410
+      internalID: -232289438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_119
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 234
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686efada14306408cb4e2ba246150593
+      internalID: -2030309737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_120
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 198
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03373012fd8441479d614f69dc3cbd2
+      internalID: 88339633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_121
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 195
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789969a2967044da29226a750ac5f0d1
+      internalID: 610816408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_122
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 195
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa9868e0ced5498f998d7bcca2a19f2
+      internalID: 2107406605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_123
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 199
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511ebf8f3786240309a35580ae7b1511
+      internalID: -1742644216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_124
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 197
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a77a8ebe739b478aa8a4888e187da35
+      internalID: -1679164840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_125
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 194
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db7e0fa6428d4deb9079c31c7aa56b9
+      internalID: 1608271047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_126
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 194
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bafe1a2f49bb4ee09eda11526569f8f
+      internalID: 13461034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_127
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 202
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38021f54997734198b40f7e6baea9887
+      internalID: -493198803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_128
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 197
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f615f55968ca34fb7a0d76368a0efa57
+      internalID: -1054442458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_129
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 194
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8faf6ac1c7f440a8c8ed5df72be91f
+      internalID: 493655849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_130
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 194
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dec04a6a76054a2a92a5ad4bd763e6b
+      internalID: 743678915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_131
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 202
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6bc58f202364d8cb1a49ee956a94c0
+      internalID: 487778634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_132
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 198
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bfd91b368210488aa4681728c6b91dc
+      internalID: -710664908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_133
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 195
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d927acf5ff84b9694c05f9d3dd0d8f
+      internalID: 1852098677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_134
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 195
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae573b88faaac4ba7bd5c53877d30fb4
+      internalID: -306540495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_135
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 199
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c003913c331304959bc5b1babc9620b6
+      internalID: 1595764185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_136
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 197
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3114c589da7e4262b4e922b7fd18e19
+      internalID: -932822258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_137
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 194
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae2ad7d0a8a343448df1daca3740c28
+      internalID: 1609661170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_138
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 194
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504eb9ef4a92e419998cc1c8ab62ec40
+      internalID: -976827806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_139
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 202
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcf5f56965774356b35e9ccb2ee219b
+      internalID: -2094336512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_140
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 197
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0adc4f175994552b0c22f9780b6867
+      internalID: 1628829525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_141
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 195
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f68ac91286248759d7170d63c3367b
+      internalID: -533994254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_142
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 195
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c5e536cdefa4de38ea998d9ee1f109
+      internalID: 434926359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_143
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 202
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6164565d34fc2413fb26ac6409f363a8
+      internalID: -1195277474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_144
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 166
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab066a2a1be514b9390ea9f881813b04
+      internalID: 598107772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_145
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 163
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce00d53a588ae4f44a2fc39edb5b822c
+      internalID: -1270234576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_146
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 163
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19170534d7914d9da49616e7f8178fd
+      internalID: 611471110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_147
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 167
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fd95dfe4ff644aa9f4cf26f7d7941e
+      internalID: 447892876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_148
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 165
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23db41d88cd0b4084b9b6400ce2b97cc
+      internalID: -2090541062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_149
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 162
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bba2a2e5f2444142ab90d753c42d6be
+      internalID: 1369508848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_150
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 162
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d96cc8a2f82423db56bf37e1578d09
+      internalID: -622888649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_151
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 170
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ef9c8d5c8cd4dd58747c046197c221
+      internalID: -977832863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_152
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 165
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8b57e15752c4af590bbb00ec509ad1
+      internalID: 964883608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_153
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 162
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ea90dc551b142fd8ece6125e7b7656
+      internalID: -1305724411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_154
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 162
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b87255adb048436dae1bfe1a241e335
+      internalID: 929679582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_155
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 170
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e7248fca77d4934a3b3e6ec60c2e2e
+      internalID: 1220253514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_156
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 166
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2055ac8207941ea828e1e356971482
+      internalID: 1508834531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_157
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 163
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa3eb34a6d0447ea8950c52e06c1974
+      internalID: 775566077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_158
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 163
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322e6061f69f54d0c8ff5d90f265019c
+      internalID: 1279311515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_159
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 167
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac4751281b6a44c99a03cbc144aa0eb
+      internalID: -2113498191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_160
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 165
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6f8b1da000e48e68024f991629a22d
+      internalID: 1924018546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_161
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 162
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3fafbf00a8a4953b44721fadba008b
+      internalID: 2025470328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_162
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 162
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88667fa70da6b4427987910794d5351f
+      internalID: -1421776950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_163
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 170
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedd889b2db384fbab716002a5048e5e
+      internalID: -236336995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_164
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 165
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5a019ca633e4f75bdccf91ff122680
+      internalID: 905239668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_165
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 163
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc3182db74224cd4a5fe6c1a2e5bcc0
+      internalID: 1121272373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_166
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 163
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be9084a5fc194411981eeb9892e0b7e
+      internalID: 1437971806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_167
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 170
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e76b75bfbf6c4780b6f93e3938274fc
+      internalID: -1310886933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_168
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 134
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1b39fe9546e499280408b30476816e
+      internalID: -664108417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_169
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 131
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdef342bdb554cedbdba4539c548e9e
+      internalID: -31815067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_170
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 131
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dac3e0490394826bb7a39cea1454cf
+      internalID: -664518309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_171
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 135
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d593d41c1f9470b8316f0bb7ca0924
+      internalID: -2056623334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_172
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 133
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb484860843de47a291800653a06bd7c
+      internalID: -1286983002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_173
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 130
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b86748762c847e684fe38b89656f06
+      internalID: -1319746482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_174
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 130
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37ceceefd4034d1690444ac201544d0
+      internalID: 641557820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_175
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 138
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61824b4c95da4ce984c03b72db499e6
+      internalID: -2058047011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_176
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 133
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 319e5b10d778246e7bf3834ce01c4418
+      internalID: 670745663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_177
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 130
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93a4bc695f4945929b9634337d03b65
+      internalID: 154330430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_178
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 130
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74c0e5e043f54c8cb6a47f52d35df7d
+      internalID: 1880061137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_179
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 138
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc89cbb575624e76aa02febe7b4a4ee
+      internalID: -964412689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_180
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 134
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee538841830a468a8509d61bc695155
+      internalID: 856790264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_181
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 131
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f3251ce99d9446ca663a06a374c39e
+      internalID: -723516517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_182
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 131
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eead60557a0d4c4baee29a49a1df2ea
+      internalID: 1798658448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_183
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 135
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d51892581b5844689cd7657f2ce7daf
+      internalID: -941738081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_184
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 133
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b49d02f0f73c49a48f64ce3a9a448fb
+      internalID: -227206950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_185
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 130
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0af1883d13c143ed8689eb702f7304b
+      internalID: -364571211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_186
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 130
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f9fd77267704ff09beed03a90f9a3e
+      internalID: -303701507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_187
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 138
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b45b48873444c5da51bbab9021a678
+      internalID: 1365319765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_188
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 133
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fcf4c67267c4852a1b393133ee71e9
+      internalID: -1270947078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_189
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 131
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d2ea49b3df4c8cadba14073bafe65
+      internalID: -2140184822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_190
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 131
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c25f1dd9319b4188a5434c2a145b926
+      internalID: -1130524643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_191
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 138
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83f4807abefa4a13812b20c319250a3
+      internalID: 692760183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_192
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 102
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1651773071d4d398508704b6dd4b73
+      internalID: 428089375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_193
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 99
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edc2922921554d329900e145f66de25
+      internalID: 1747220807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_194
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 99
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4cf10fec2b049c5866fc67e59e4498
+      internalID: -1066741582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_195
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 103
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5912ee217a75d4da59241e8057dfcd9f
+      internalID: -191558310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_196
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 101
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0185afc870821476195599cf550b25fe
+      internalID: 935003111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_197
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 98
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e162abbb4284e4bfe8a06d075b31df6f
+      internalID: -1274913903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_198
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 98
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241ebb3f5b15e441bb3973710606f4c6
+      internalID: 1392138328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_199
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 106
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc390c5fa290844ccb5385cbe979ba0f
+      internalID: 146999809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_200
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 101
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75139ec9871349edafd863fd8a2fee3
+      internalID: -205123919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_201
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 98
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceacd4cb46254319a9e6dac07e56ded
+      internalID: 1372185250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_202
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 98
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7341cfac09cc646a6850b300963015ad
+      internalID: 222924972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_203
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 106
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5945d895e1a624fec9d6f17b9c97c435
+      internalID: -1497712870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_204
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 102
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3a74f9038554675802fcd42762d304
+      internalID: -1679931046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_205
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 99
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c649f2e9cf8451c90b714661c31cf6
+      internalID: 1254690394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_206
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 99
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5fdc5bebf5a40109e259ae3afcd03b
+      internalID: -1881206219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_207
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 103
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf552b9e06b24a1fb145768b1789a42
+      internalID: -1778886773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_208
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 101
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5faabdaa1284607aa74d2e522bd313
+      internalID: 970761406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_209
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 98
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29497a03319f54ae98ab1914c4a0af64
+      internalID: 1383506544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_210
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 98
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09bedcfe44fd49c8bea16660472da60
+      internalID: 1768625639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_211
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 106
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3a860834d9c40b6b67adbb0d38a24a
+      internalID: -965369914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_212
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 101
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230f527342d0b4f25abf5b9244eb2bf1
+      internalID: -1203175917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_213
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 99
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e91eceeefa7c46a59c783e5210e706d
+      internalID: -774242976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_214
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 99
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9e1277bf64a495ba970f2f9d0ce2e2
+      internalID: -1975437640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_215
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 106
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd0bc32a95f843b28b2a201b71f06c9
+      internalID: 751399774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_216
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 70
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c1d7254356d44008a54e7e8c76ba6f
+      internalID: 726107785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_217
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 67
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52aac94eb9a645ebae126025b5d4000
+      internalID: 1127274360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_218
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 67
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aec160822ed549629067fad636745cd
+      internalID: -510303545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_219
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 71
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586d9aede169a4f25b5251c200dc7736
+      internalID: -367900242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_220
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 69
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463e83f61d8a744be92389835eebf507
+      internalID: 1366852598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_221
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 66
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88db4ca7519942e7b62300fe53a3fac
+      internalID: -398505530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_222
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 66
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f623c070a574c4d20ba9f9b65a8ec600
+      internalID: -547425740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_223
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 74
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3701054654a594fde94657f46b210f2a
+      internalID: 1220226130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_224
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 69
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17a3bb835c074bb192f082e3d1b5ec8
+      internalID: 1409785619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_225
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 66
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3d9616bf3964bb39abd41e6bff50c3
+      internalID: 1754482707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_226
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 66
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee202ef525da45948afeef1465e7c95
+      internalID: 126478885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_227
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 74
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0312b3ea8443f47c7af46dfdba3d3f5b
+      internalID: 481254744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_228
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 70
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23b2da21b46a4274aed9fad10a36b30
+      internalID: 202196365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_229
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 67
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafb80fd7a2de46c2a435d9ee5e5484b
+      internalID: -14251520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_230
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 67
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff1c06189f94c3397b2a6eccbe6e6a
+      internalID: 657024284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_231
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 71
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b4adf6dac734ca6af24ef7aef266a6
+      internalID: 865195041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_232
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 69
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090b4cf11226c4c2f821594d736e4b9c
+      internalID: 698028093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_233
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 66
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d606f57f03de438ebd57d80b3c41511
+      internalID: -1255620248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_234
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 66
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f434ca5fe2aa6463cb4c2cba235629f2
+      internalID: 11463619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_235
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 74
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa0f6ab8f66e42bcb49adad7375c960
+      internalID: -348153677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_236
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 69
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2514b81506684166b0d5fbeb558a910
+      internalID: -291374378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_237
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 67
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdc79677bf9f45a483278010e364912
+      internalID: 1854464913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_238
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 67
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab6e440775ac4b5e9e502ae3ca5d24a
+      internalID: -1241673890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_239
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 74
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d50d4b31431443ea180b8db5d8b6e6
+      internalID: -1315935620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_240
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 38
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6784286f8e5894956b49c1ff6290c1ec
+      internalID: 1852759214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_241
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05e61e388306412d9c07d38005396f7
+      internalID: -1363974381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_242
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 35
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f23607b6eec40e4bd702793a6a1742
+      internalID: -861445787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_243
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 39
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464cafac4c164449aba1a2eef50ea8a4
+      internalID: 1495432061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_244
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 37
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc4eef5f8b504d49b92cc0ce9740f69
+      internalID: -110489319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_245
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 34
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201f98d1789174a6991b5fcebda3d808
+      internalID: -690935109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_246
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 34
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f04489929a524e94881550247df49b8
+      internalID: 1870574649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_247
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 42
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663e7cb5c60a34f7b8f3f9b4ea5d70b5
+      internalID: -1113675341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_248
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 37
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fceafb9ffd694db6821801226d6c8e9
+      internalID: -2073659314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_249
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 34
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce5060de85e447f9bb70dcf8164b55c
+      internalID: 1277279688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_250
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 34
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e314895880eb54ec5a1540f958f94be1
+      internalID: -762248110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_251
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 42
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c089f8363d0b84330a89ab59e111c060
+      internalID: -1537094823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_252
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 38
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243d391aac2c94e78a9b03964c067d7d
+      internalID: -1570017444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_253
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 35
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4612b7df1a5064dddbfcb47379a2778b
+      internalID: -265248245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_254
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 35
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22709d8b356f405fb0d20766bb35a5a
+      internalID: -1745794233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_255
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 39
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25411d051db184cbfb047ea0d03b6759
+      internalID: -940168051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_256
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 37
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcea34f9487e48e2a3972a3d7869002
+      internalID: 1636059844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_257
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 34
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8e1c040b60d4d10b0bd16534972b52
+      internalID: 1192453910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_258
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 34
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d16063e8dc5447b597e87bf9454ca4a
+      internalID: 526903849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_259
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 42
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d44fda49c8134d9f9f3b4a648d240ec
+      internalID: -2039535430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_260
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 37
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b330c01d1e7964ea5b662ba54fac782e
+      internalID: -705347741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_261
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 35
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea89a94d7f5704459bc82702398c2394
+      internalID: -1184661481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_262
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 35
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fd5d241f9c3420c9dcb3ff4879f8cd
+      internalID: 2003482228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_263
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 42
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aca2bb84610400b81dd38c6cb155e2
+      internalID: -1210020365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_264
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 6
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e60c600930043199b21ec8db3fdaaa
+      internalID: 277178341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_265
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10b00c789e514cfe819e509bd79f031
+      internalID: 415370631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_266
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0690be83ea041e7b53888c64ed70dc
+      internalID: -1900615031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_267
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 7
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3179e6155ac7f4c7782aa058bf526383
+      internalID: 1242345778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_268
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ca97b8a2a424cc5be974a9694885b0
+      internalID: 1975313511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_269
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 2
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd437fcf54aa64f2c96f6b6392415b1f
+      internalID: -812693447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_270
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7278471531bc14a0bb9db2e833b701a5
+      internalID: -1597077532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_271
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 10
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede0dccc24cfe4f049a3e1434eaa8e1e
+      internalID: 68481220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_272
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 5
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41ea1724569c43b8b9dbf520616c224
+      internalID: -2022584434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_273
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc84ed0e3c264dd493569afbbe8be30
+      internalID: -1913350317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_274
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9a0cdad738744b59d26f1f8d314b39
+      internalID: -1820071953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_275
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 10
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8cdbc33c40043bda8f0520e478c84d
+      internalID: -271760359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_276
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 6
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bac6379bfdb54844a7a1326a54749c6
+      internalID: -5801569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_277
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82fcc88d07284f4d805dc76938d486d
+      internalID: -737306180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_278
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b5c4786d20e4124aaa05e0e570629b
+      internalID: -1075367941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_279
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 7
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d558af318e074b4782551990af7bd73
+      internalID: -54373276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_280
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 5
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376feb8fc1eaa45dfae367d604dfb69b
+      internalID: -1666698720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_281
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb478f59d27e94a40bdc127081a08ee4
+      internalID: -443893023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_282
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57bd583daf36f4e8fad5e7c8003fc57a
+      internalID: -943728736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_283
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 10
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d65e608ee364ee3a87def666143e14
+      internalID: 1108051471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_284
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 5
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a06d1c1b8e64cacae1baf12cb0face
+      internalID: -1566614425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_285
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 3
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ece233c3ab894012ac1d704ed0ba841
+      internalID: -392299381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_286
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 3
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4d5ba622521412d8d9f86ce09029dc
+      internalID: -1857591041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bedsheets2_287
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 10
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc840cc37c995470fac9d4e1bf03ae49
+      internalID: 1969762144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bedsheets2_0: -373589036
+      bedsheets2_1: 1706255205
+      bedsheets2_10: -1133020614
+      bedsheets2_100: 1530843693
+      bedsheets2_101: -642247277
+      bedsheets2_102: 88203870
+      bedsheets2_103: 158886405
+      bedsheets2_104: -921245700
+      bedsheets2_105: -1391000225
+      bedsheets2_106: -420230236
+      bedsheets2_107: -775622921
+      bedsheets2_108: 1127022455
+      bedsheets2_109: -292771429
+      bedsheets2_11: -341891795
+      bedsheets2_110: 964869794
+      bedsheets2_111: 1725747748
+      bedsheets2_112: 274276715
+      bedsheets2_113: -1756295870
+      bedsheets2_114: 1563480125
+      bedsheets2_115: -720194546
+      bedsheets2_116: 1278401549
+      bedsheets2_117: 782338031
+      bedsheets2_118: -232289438
+      bedsheets2_119: -2030309737
+      bedsheets2_12: 1390701253
+      bedsheets2_120: 88339633
+      bedsheets2_121: 610816408
+      bedsheets2_122: 2107406605
+      bedsheets2_123: -1742644216
+      bedsheets2_124: -1679164840
+      bedsheets2_125: 1608271047
+      bedsheets2_126: 13461034
+      bedsheets2_127: -493198803
+      bedsheets2_128: -1054442458
+      bedsheets2_129: 493655849
+      bedsheets2_13: -827236657
+      bedsheets2_130: 743678915
+      bedsheets2_131: 487778634
+      bedsheets2_132: -710664908
+      bedsheets2_133: 1852098677
+      bedsheets2_134: -306540495
+      bedsheets2_135: 1595764185
+      bedsheets2_136: -932822258
+      bedsheets2_137: 1609661170
+      bedsheets2_138: -976827806
+      bedsheets2_139: -2094336512
+      bedsheets2_14: 1543949778
+      bedsheets2_140: 1628829525
+      bedsheets2_141: -533994254
+      bedsheets2_142: 434926359
+      bedsheets2_143: -1195277474
+      bedsheets2_144: 598107772
+      bedsheets2_145: -1270234576
+      bedsheets2_146: 611471110
+      bedsheets2_147: 447892876
+      bedsheets2_148: -2090541062
+      bedsheets2_149: 1369508848
+      bedsheets2_15: 89518734
+      bedsheets2_150: -622888649
+      bedsheets2_151: -977832863
+      bedsheets2_152: 964883608
+      bedsheets2_153: -1305724411
+      bedsheets2_154: 929679582
+      bedsheets2_155: 1220253514
+      bedsheets2_156: 1508834531
+      bedsheets2_157: 775566077
+      bedsheets2_158: 1279311515
+      bedsheets2_159: -2113498191
+      bedsheets2_16: 1228245078
+      bedsheets2_160: 1924018546
+      bedsheets2_161: 2025470328
+      bedsheets2_162: -1421776950
+      bedsheets2_163: -236336995
+      bedsheets2_164: 905239668
+      bedsheets2_165: 1121272373
+      bedsheets2_166: 1437971806
+      bedsheets2_167: -1310886933
+      bedsheets2_168: -664108417
+      bedsheets2_169: -31815067
+      bedsheets2_17: -1493932874
+      bedsheets2_170: -664518309
+      bedsheets2_171: -2056623334
+      bedsheets2_172: -1286983002
+      bedsheets2_173: -1319746482
+      bedsheets2_174: 641557820
+      bedsheets2_175: -2058047011
+      bedsheets2_176: 670745663
+      bedsheets2_177: 154330430
+      bedsheets2_178: 1880061137
+      bedsheets2_179: -964412689
+      bedsheets2_18: 767727869
+      bedsheets2_180: 856790264
+      bedsheets2_181: -723516517
+      bedsheets2_182: 1798658448
+      bedsheets2_183: -941738081
+      bedsheets2_184: -227206950
+      bedsheets2_185: -364571211
+      bedsheets2_186: -303701507
+      bedsheets2_187: 1365319765
+      bedsheets2_188: -1270947078
+      bedsheets2_189: -2140184822
+      bedsheets2_19: -1329497054
+      bedsheets2_190: -1130524643
+      bedsheets2_191: 692760183
+      bedsheets2_192: 428089375
+      bedsheets2_193: 1747220807
+      bedsheets2_194: -1066741582
+      bedsheets2_195: -191558310
+      bedsheets2_196: 935003111
+      bedsheets2_197: -1274913903
+      bedsheets2_198: 1392138328
+      bedsheets2_199: 146999809
+      bedsheets2_2: -1466889458
+      bedsheets2_20: 128200030
+      bedsheets2_200: -205123919
+      bedsheets2_201: 1372185250
+      bedsheets2_202: 222924972
+      bedsheets2_203: -1497712870
+      bedsheets2_204: -1679931046
+      bedsheets2_205: 1254690394
+      bedsheets2_206: -1881206219
+      bedsheets2_207: -1778886773
+      bedsheets2_208: 970761406
+      bedsheets2_209: 1383506544
+      bedsheets2_21: -361952015
+      bedsheets2_210: 1768625639
+      bedsheets2_211: -965369914
+      bedsheets2_212: -1203175917
+      bedsheets2_213: -774242976
+      bedsheets2_214: -1975437640
+      bedsheets2_215: 751399774
+      bedsheets2_216: 726107785
+      bedsheets2_217: 1127274360
+      bedsheets2_218: -510303545
+      bedsheets2_219: -367900242
+      bedsheets2_22: 1823816265
+      bedsheets2_220: 1366852598
+      bedsheets2_221: -398505530
+      bedsheets2_222: -547425740
+      bedsheets2_223: 1220226130
+      bedsheets2_224: 1409785619
+      bedsheets2_225: 1754482707
+      bedsheets2_226: 126478885
+      bedsheets2_227: 481254744
+      bedsheets2_228: 202196365
+      bedsheets2_229: -14251520
+      bedsheets2_23: -1543680558
+      bedsheets2_230: 657024284
+      bedsheets2_231: 865195041
+      bedsheets2_232: 698028093
+      bedsheets2_233: -1255620248
+      bedsheets2_234: 11463619
+      bedsheets2_235: -348153677
+      bedsheets2_236: -291374378
+      bedsheets2_237: 1854464913
+      bedsheets2_238: -1241673890
+      bedsheets2_239: -1315935620
+      bedsheets2_24: -1152570654
+      bedsheets2_240: 1852759214
+      bedsheets2_241: -1363974381
+      bedsheets2_242: -861445787
+      bedsheets2_243: 1495432061
+      bedsheets2_244: -110489319
+      bedsheets2_245: -690935109
+      bedsheets2_246: 1870574649
+      bedsheets2_247: -1113675341
+      bedsheets2_248: -2073659314
+      bedsheets2_249: 1277279688
+      bedsheets2_25: 1070041542
+      bedsheets2_250: -762248110
+      bedsheets2_251: -1537094823
+      bedsheets2_252: -1570017444
+      bedsheets2_253: -265248245
+      bedsheets2_254: -1745794233
+      bedsheets2_255: -940168051
+      bedsheets2_256: 1636059844
+      bedsheets2_257: 1192453910
+      bedsheets2_258: 526903849
+      bedsheets2_259: -2039535430
+      bedsheets2_26: -1692805579
+      bedsheets2_260: -705347741
+      bedsheets2_261: -1184661481
+      bedsheets2_262: 2003482228
+      bedsheets2_263: -1210020365
+      bedsheets2_264: 277178341
+      bedsheets2_265: 415370631
+      bedsheets2_266: -1900615031
+      bedsheets2_267: 1242345778
+      bedsheets2_268: 1975313511
+      bedsheets2_269: -812693447
+      bedsheets2_27: -1187606742
+      bedsheets2_270: -1597077532
+      bedsheets2_271: 68481220
+      bedsheets2_272: -2022584434
+      bedsheets2_273: -1913350317
+      bedsheets2_274: -1820071953
+      bedsheets2_275: -271760359
+      bedsheets2_276: -5801569
+      bedsheets2_277: -737306180
+      bedsheets2_278: -1075367941
+      bedsheets2_279: -54373276
+      bedsheets2_28: -1977747665
+      bedsheets2_280: -1666698720
+      bedsheets2_281: -443893023
+      bedsheets2_282: -943728736
+      bedsheets2_283: 1108051471
+      bedsheets2_284: -1566614425
+      bedsheets2_285: -392299381
+      bedsheets2_286: -1857591041
+      bedsheets2_287: 1969762144
+      bedsheets2_29: 1334750374
+      bedsheets2_3: 1725129827
+      bedsheets2_30: -802722450
+      bedsheets2_31: -1787053302
+      bedsheets2_32: 1283958459
+      bedsheets2_33: 1133390273
+      bedsheets2_34: -1010061350
+      bedsheets2_35: -1885653115
+      bedsheets2_36: 2107510413
+      bedsheets2_37: -1438046524
+      bedsheets2_38: -689748466
+      bedsheets2_39: -1295510317
+      bedsheets2_4: 719667146
+      bedsheets2_40: -108712792
+      bedsheets2_41: -1623508300
+      bedsheets2_42: 1457687692
+      bedsheets2_43: 285994642
+      bedsheets2_44: -404305550
+      bedsheets2_45: 683373886
+      bedsheets2_46: -1563130318
+      bedsheets2_47: -1681019610
+      bedsheets2_48: -80375865
+      bedsheets2_49: -1399898352
+      bedsheets2_5: 433480699
+      bedsheets2_50: 30744793
+      bedsheets2_51: -197050358
+      bedsheets2_52: -960573841
+      bedsheets2_53: 26831186
+      bedsheets2_54: -851600792
+      bedsheets2_55: -56483379
+      bedsheets2_56: -956473933
+      bedsheets2_57: -147822054
+      bedsheets2_58: 111557506
+      bedsheets2_59: -2098119480
+      bedsheets2_6: -981530528
+      bedsheets2_60: 404821628
+      bedsheets2_61: -2070885587
+      bedsheets2_62: 1751745350
+      bedsheets2_63: -152777610
+      bedsheets2_64: -1151390972
+      bedsheets2_65: -1551489046
+      bedsheets2_66: 526075407
+      bedsheets2_67: -1178297586
+      bedsheets2_68: 263009681
+      bedsheets2_69: 620467175
+      bedsheets2_7: -314539627
+      bedsheets2_70: 1890952760
+      bedsheets2_71: 1117950255
+      bedsheets2_72: -1085741380
+      bedsheets2_73: -1774010067
+      bedsheets2_74: 1087379302
+      bedsheets2_75: -53423050
+      bedsheets2_76: 1421449526
+      bedsheets2_77: -667520227
+      bedsheets2_78: -531747221
+      bedsheets2_79: 628353399
+      bedsheets2_8: -2005030795
+      bedsheets2_80: 733686880
+      bedsheets2_81: -1335228395
+      bedsheets2_82: 1323779756
+      bedsheets2_83: -1509197452
+      bedsheets2_84: -1496092545
+      bedsheets2_85: -192943414
+      bedsheets2_86: 1886515561
+      bedsheets2_87: -1001303773
+      bedsheets2_88: -222906556
+      bedsheets2_89: -1636975380
+      bedsheets2_9: 1719068576
+      bedsheets2_90: 1941044201
+      bedsheets2_91: 1386765134
+      bedsheets2_92: -1215143368
+      bedsheets2_93: 322371675
+      bedsheets2_94: -617311483
+      bedsheets2_95: 858505786
+      bedsheets2_96: 1929002637
+      bedsheets2_97: -1863580461
+      bedsheets2_98: -703704216
+      bedsheets2_99: 654045943
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
