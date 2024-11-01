@@ -75,3 +75,6 @@ crashlytics-build.properties
 
 #Ignore the Executables folder
 Executables/
+
+#Ignore DS_Store
+.DS_Store
