@@ -77,4 +77,4 @@ crashlytics-build.properties
 Executables/
 
 #Ignore DS_Store
-.DS_Store
+.DS_Store/
