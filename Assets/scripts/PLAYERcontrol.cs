@@ -14,7 +14,6 @@ public class PLAYERcontrol : MonoBehaviour
     {
         // Automatically assign the Rigidbody2D attached to this GameObject
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
 
         // Check if the Rigidbody2D was successfully found and assigned
         if (rb == null)
@@ -27,37 +26,11 @@ public class PLAYERcontrol : MonoBehaviour
         }
     }
 
-    private Animator animator;
-    private Transform tf;
-    private bool facingRight = true;
-    public float speed = 0;
-
     void Update()
     {
         // Get player input
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-        if (movement.magnitude > 1)
-            movement /= movement.magnitude;
-        speed = movement.magnitude;
-
-        animator.SetFloat("speed", speed);
-        Debug.Log("speed is " + speed);
-        if(movement.x < -1e-6 && facingRight)
-        {
-            facingRight = false;
-            Vector3 ls = transform.localScale;
-            ls.x *= -1;
-            transform.localScale = ls;
-            //transform.localScale.x *= -1;
-        }
-        if (movement.x > 1e-6 && !facingRight) 
-        {
-            facingRight = true;
-            Vector3 ls = transform.localScale;
-            ls.x *= -1;
-            transform.localScale = ls;
-        }
     }
 
     void FixedUpdate()
