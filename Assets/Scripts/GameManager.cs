@@ -1,47 +1,77 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    // Variable to store the player's spawn position
-    public Vector3 playerSpawnPosition;
+    // Player data (you can add more as needed)
+    public GameObject playerPrefab;
+    [HideInInspector]
+    public GameObject playerInstance;
 
-    void Awake()
+    private void Awake()
     {
-        // Implementing the Singleton pattern
+        // Ensure only one instance of GameManager exists
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Makes the GameManager persist between scenes
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
-    void OnEnable()
+    private void Start()
     {
-        // Subscribe to the sceneLoaded event
+        // Instantiate player if not already in the scene
+        if (GameObject.FindGameObjectWithTag("Player") == null)
+        {
+            SpawnPlayer(Vector3.zero); // You can set a default spawn position
+        }
+    }
+
+    // Method to spawn player at a specific position
+    public void SpawnPlayer(Vector3 position)
+    {
+        playerInstance = Instantiate(playerPrefab, position, Quaternion.identity);
+    }
+
+    public Vector3 nextSpawnPosition = Vector3.zero;
+
+    private void OnEnable()
+    {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
-    void OnDisable()
+    private void OnDisable()
     {
-        // Unsubscribe from the sceneLoaded event
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Find the player in the new scene
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player != null)
+        // Move player to the next spawn position
+        if (playerInstance == null)
         {
-            // Set the player's position to the stored spawn position
-            player.transform.position = playerSpawnPosition;
+            SpawnPlayer(nextSpawnPosition);
+        }
+        else
+        {
+            playerInstance.transform.position = nextSpawnPosition;
+        }
+
+                CinemachineVirtualCamera vCam = FindObjectOfType<CinemachineVirtualCamera>();
+
+        if (vCam != null)
+        {
+            // Assign the player's transform to the camera's Follow and LookAt
+            vCam.Follow = playerInstance.transform;
         }
     }
+
 }

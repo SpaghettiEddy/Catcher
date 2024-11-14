@@ -1,17 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneTransition : MonoBehaviour {
-
+public class SceneTransition : MonoBehaviour
+{
     public string sceneToLoad;
+    public Vector3 spawnPosition;
 
-    // Update is called once per frame
-    public void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
+            // Store the spawn position in the GameManager
+            GameManager.instance.nextSpawnPosition = spawnPosition;
             SceneManager.LoadScene(sceneToLoad);
         }
     }
