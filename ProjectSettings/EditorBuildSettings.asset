@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start Game.unity
+    guid: c79ea926cb1612a48bf059375b15b350
+  - enabled: 1
+    path: Assets/Scenes/Town Map.unity
+    guid: 6701ccc573f48434298f9d3d62dbf709
+  - enabled: 1
     path: Assets/Scenes/giselle's room.unity
     guid: 48bd544a713ff491cb8b1f0b40f353ad
   - enabled: 1
@@ -14,9 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Woods.unity
     guid: 4cd662810990b4ca7ba88bfd1a472f0b
-  - enabled: 1
-    path: Assets/Scenes/Map.unity
-    guid: 6e8019f9aeeaf4041a2b66e48b53009b
   - enabled: 1
     path: Assets/Scenes/Library.unity
     guid: 2cda990e2423bbf4892e6590ba056729
