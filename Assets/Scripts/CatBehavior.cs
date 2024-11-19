@@ -16,7 +16,7 @@ public class CatBehavior : MonoBehaviour
     {
         // Find the player in the scene
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if(player != null)
+        if (player != null)
             playerTransform = player.transform;
 
         rb = GetComponent<Rigidbody2D>();
@@ -111,7 +111,10 @@ public class CatBehavior : MonoBehaviour
             // Cat is caught
             isCaught = true;
             rb.velocity = Vector2.zero; // Stop moving
-            Debug.Log("Cat caught!");
+
+            GameManager gameManager = FindObjectOfType<GameManager>();
+            gameManager.firstQuestCompleted = true;
+            gameManager.CompleteFirstQuest();
 
             // Destroy the cat GameObject
             Destroy(gameObject);

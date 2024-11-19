@@ -163,6 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  catnipPrefab: {fileID: 2415120845394801171, guid: 56a22f4e5625a4fd283c53eb446d4d7b, type: 3}
 --- !u!95 &1522371625554836284
 Animator:
   serializedVersion: 5

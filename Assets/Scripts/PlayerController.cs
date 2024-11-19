@@ -3,32 +3,68 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour
+{
     [SerializeField] private int speed = 4;
 
     private Vector2 movement;
     private Rigidbody2D rb;
-    private Animator animator; 
+    private Animator animator;
 
-    private void Awake() {
+    public GameObject catnipPrefab;
+    private bool hasCatnip = false;
+
+    private float catnipCooldown = 10f; // Cooldown duration in seconds
+    private float lastCatnipTime = -10f; // Time when the last catnip was spawned
+
+
+    private void Awake()
+    {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
-    private void OnMovement(InputValue value) {
+    private void OnMovement(InputValue value)
+    {
         movement = value.Get<Vector2>();
 
-        if (movement.x != 0 || movement.y != 0) {
+        if (movement.x != 0 || movement.y != 0)
+        {
             animator.SetFloat("X", movement.x);
-            animator.SetFloat("Y", movement.y); 
+            animator.SetFloat("Y", movement.y);
 
             animator.SetBool("IsWalking", true);
-        } else {
+        }
+        else
+        {
             animator.SetBool("IsWalking", false);
         }
     }
 
-    private void FixedUpdate() {
+    private void Update()
+    {
         rb.MovePosition(rb.position + speed * Time.fixedDeltaTime * movement);
+        if (hasCatnip && Input.GetKeyDown(KeyCode.C))
+        {
+            if (Time.time - lastCatnipTime >= catnipCooldown)
+            {
+                // Spawn the Catnip object next to the player
+                Instantiate(catnipPrefab, transform.position + Vector3.right, Quaternion.identity);
+                lastCatnipTime = Time.time; // Reset the cooldown timer
+            }
+            else
+            {
+                // Optional: Provide feedback that catnip is on cooldown
+                Debug.Log("Catnip is on cooldown!");
+            }
+        }
+
+    }
+
+    public void CollectCatnip()
+    {
+        hasCatnip = true;
+        Debug.Log("Catnip collected");
+
     }
 }

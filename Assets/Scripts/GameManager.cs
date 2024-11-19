@@ -11,6 +11,15 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public GameObject playerInstance;
 
+    public bool firstQuestCompleted = false;
+    public bool secondQuestCompleted = false;
+    public bool thirdQuestCompleted = false;
+
+    public GameObject catnipInventoryIcon;
+
+
+    public GameObject Catnip;
+
     private void Awake()
     {
         // Ensure only one instance of GameManager exists
@@ -65,13 +74,25 @@ public class GameManager : MonoBehaviour
             playerInstance.transform.position = nextSpawnPosition;
         }
 
-                CinemachineVirtualCamera vCam = FindObjectOfType<CinemachineVirtualCamera>();
+        CinemachineVirtualCamera vCam = FindObjectOfType<CinemachineVirtualCamera>();
 
         if (vCam != null)
         {
             // Assign the player's transform to the camera's Follow and LookAt
             vCam.Follow = playerInstance.transform;
         }
+    }
+
+    public void CompleteFirstQuest()
+    {
+        // Activate the plant
+        Catnip.SetActive(true);
+    }
+
+    public void AddCatnipToInventory()
+    {
+        // Activate the catnip icon in the inventory UI
+        catnipInventoryIcon.SetActive(true);
     }
 
 }
