@@ -7,13 +7,18 @@ public class CatBehavior : MonoBehaviour
     public LayerMask playerLayer;        // Layer to identify the player
     public LayerMask obstacleLayer;      // Layer to identify obstacles
     public bool isCaught = false;        // Has the cat been caught?
+    public bool facingRight = true;
 
     private Transform playerTransform;
     private Rigidbody2D rb;
     private Vector2 currentDirection;
 
+
+    private Animator animator;
+
     void Start()
     {
+        
         // Find the player in the scene
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
@@ -21,6 +26,7 @@ public class CatBehavior : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true; // Prevent rotation
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -37,6 +43,14 @@ public class CatBehavior : MonoBehaviour
             else
             {
                 IdleMovement(); // Optional idle movement
+            }
+            animator.SetFloat("speed", rb.velocity.magnitude);
+            if ((facingRight && rb.velocity.x < -1e-5) || (!facingRight && rb.velocity.x > 1e-5))
+            {
+                facingRight = !facingRight;
+                Vector2 ls = transform.localScale;
+                ls.x *= -1;
+                transform.localScale = ls;
             }
         }
     }
