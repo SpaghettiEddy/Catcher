@@ -20,20 +20,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject Catnip;
 
-    private void Awake()
-    {
-        // Ensure only one instance of GameManager exists
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-            return;
-        }
-    }
+  
 
     private void Start()
     {

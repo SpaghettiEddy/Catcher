@@ -20,6 +20,7 @@ public class PlayGame : MonoBehaviour
         }   
 
         else{
+
             SceneManager.LoadScene("Town Map");
         }
     }
