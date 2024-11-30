@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 1488176854112002305}
   - component: {fileID: 8928779909780965985}
   - component: {fileID: 6642532596307043166}
-  - component: {fileID: -7782789546143274056}
-  - component: {fileID: 3384008489016422107}
+  - component: {fileID: 1973195722972127006}
+  - component: {fileID: 5528519885103877653}
   m_Layer: 0
-  m_Name: Cat
+  m_Name: Cat 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 16c415a35791c45358816df2b7851c28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 255ec45708e1d4ff69ed8f75fefe011c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
     m_Bits: 1024
   isCaught: 0
   facingRight: 1
---- !u!95 &-7782789546143274056
+--- !u!95 &1973195722972127006
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -193,7 +193,7 @@ Animator:
   m_GameObject: {fileID: 6556934706636200326}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9c3e8fec39e2c4780af7ce902de11a4b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3d12600a88a64420c94e2773867aeafe, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -204,7 +204,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3384008489016422107
+--- !u!114 &5528519885103877653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

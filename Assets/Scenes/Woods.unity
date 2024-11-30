@@ -21150,6 +21150,67 @@ PolygonCollider2D:
       - {x: 19.9, y: -20}
       - {x: 20.9, y: -21}
   m_UseDelaunayMesh: 0
+--- !u!1001 &1655281846
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.16549519
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.2526765
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4105383999620850860, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4412484663132576715, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aa237e047f71d46c4b6c658d2b4a4f0c, type: 3}
+    - target: {fileID: 6349739819856936028, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_Name
+      value: Ansel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
 --- !u!1 &1880660672
 GameObject:
   m_ObjectHideFlags: 0
@@ -23557,3 +23618,4 @@ SceneRoots:
   - {fileID: 1329380259}
   - {fileID: 1610590972}
   - {fileID: 1396709342}
+  - {fileID: 1655281846}
