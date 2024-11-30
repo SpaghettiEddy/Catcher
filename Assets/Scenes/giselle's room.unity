@@ -4334,6 +4334,14 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: Town Map
       objectReference: {fileID: 0}
+    - target: {fileID: 8027165401914695234, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
+      propertyPath: spawnPosition.x
+      value: -10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027165401914695234, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
+      propertyPath: spawnPosition.y
+      value: -9
+      objectReference: {fileID: 0}
     - target: {fileID: 8309895608126081115, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
       propertyPath: m_Name
       value: Giselle Exit

@@ -14962,7 +14962,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 403637399479581291, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20
+      value: 19.75
       objectReference: {fileID: 0}
     - target: {fileID: 403637399479581291, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15022,11 +15022,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8027165401914695234, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
       propertyPath: spawnPosition.x
-      value: -30
+      value: -29
       objectReference: {fileID: 0}
     - target: {fileID: 8027165401914695234, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
       propertyPath: spawnPosition.y
-      value: 2.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8309895608126081115, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
       propertyPath: m_Name
@@ -30726,7 +30726,7 @@ GameObject:
   - component: {fileID: 1896862127}
   - component: {fileID: 1896862126}
   - component: {fileID: 1896862125}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}

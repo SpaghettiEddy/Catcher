@@ -9,14 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Game.unity
     guid: c79ea926cb1612a48bf059375b15b350
   - enabled: 1
-    path: Assets/Scenes/Town Map.unity
-    guid: 6701ccc573f48434298f9d3d62dbf709
-  - enabled: 1
     path: Assets/Scenes/giselle's room.unity
     guid: 48bd544a713ff491cb8b1f0b40f353ad
   - enabled: 1
     path: Assets/Scenes/Jane's Room.unity
     guid: 6226333b397a147cba324b7f5afd6d99
+  - enabled: 1
+    path: Assets/Scenes/Introduction.unity
+    guid: 9c50cac28265ca548a73ba5851edf181
+  - enabled: 1
+    path: Assets/Scenes/Town Map.unity
+    guid: 6701ccc573f48434298f9d3d62dbf709
   - enabled: 1
     path: Assets/Scenes/Woods.unity
     guid: 4cd662810990b4ca7ba88bfd1a472f0b
@@ -27,9 +30,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Game.unity
     guid: c79ea926cb1612a48bf059375b15b350
   - enabled: 1
+    path: Assets/Scenes/Trains.unity
+    guid: 0fe69485d46954cf5a6f28fa4bab70bd
+  - enabled: 1
     path: Assets/Scenes/Town Map.unity
     guid: 6701ccc573f48434298f9d3d62dbf709
   - enabled: 1
-    path: Assets/Scenes/Trains.unity
-    guid: 0fe69485d46954cf5a6f28fa4bab70bd
+    path: Assets/Scenes/Main Menu.unity
+    guid: 160fbb3fd957b4f209e48c422d12936f
   m_configObjects: {}

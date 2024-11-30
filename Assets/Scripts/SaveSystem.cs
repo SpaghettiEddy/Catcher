@@ -12,7 +12,7 @@ public class SaveSystem : MonoBehaviour
     public void Save(){
         SavePosition();
         PlayerPrefs.SetInt("LastSceneIndex", SceneManager.GetActiveScene().buildIndex);
-        SceneManager.LoadScene("Start Game");
+        SceneManager.LoadScene("Main Menu");
     }
 
     private void SavePosition(){
