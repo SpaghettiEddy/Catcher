@@ -1808,6 +1808,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4168481455394731621, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 4753284315455516786, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
       propertyPath: m_Name
       value: Virtual Camera
@@ -2667,7 +2671,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: orthographic size
-      value: 6
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.16285715
+      objectReference: {fileID: 0}
+    - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.13714285
+      objectReference: {fileID: 0}
+    - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2571047937614480255, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: m_Name
@@ -3206,7 +3222,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 4
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3216,7 +3232,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3255,16 +3271,16 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 1852119033, guid: ce38b935d22b74e2fa6b062a340ba6bb, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1365219978, guid: ce38b935d22b74e2fa6b062a340ba6bb, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1644960270, guid: ce38b935d22b74e2fa6b062a340ba6bb, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1738679618, guid: ce38b935d22b74e2fa6b062a340ba6bb, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1365219978, guid: ce38b935d22b74e2fa6b062a340ba6bb, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 4
     m_Data:
@@ -3363,7 +3379,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2729711106388976574, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
