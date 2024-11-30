@@ -16,7 +16,11 @@ public class PlayerController : MonoBehaviour
 
     private float catnipCooldown = 10f; // Cooldown duration in seconds
     private float lastCatnipTime = -10f; // Time when the last catnip was spawned
-
+    private bool hasRunningShoes = false; // Set to true when RunningShoes are collected
+    private float speedBoostAmount = 2f;
+    private float speedBoostDuration = 2f;
+    private float speedBoostCooldown = 5f;
+    private float lastSpeedBoostTime = -5f;
 
     private void Awake()
     {
@@ -59,6 +63,19 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (hasRunningShoes && Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            if (Time.time - lastSpeedBoostTime >= speedBoostCooldown)
+            {
+                StartCoroutine(SpeedBoost());
+                lastSpeedBoostTime = Time.time;
+            }
+            else
+            {
+                Debug.Log("Speed boost is on cooldown!");
+            }
+        }
+
     }
 
     public void CollectCatnip()
@@ -66,5 +83,17 @@ public class PlayerController : MonoBehaviour
         hasCatnip = true;
         Debug.Log("Catnip collected");
 
+    }
+
+    public void EnableRunningShoes()
+    {
+        hasRunningShoes = true;
+    }
+
+    private IEnumerator SpeedBoost()
+    {
+        speed += (int)speedBoostAmount;
+        yield return new WaitForSeconds(speedBoostDuration);
+        speed -= (int)speedBoostAmount;
     }
 }

@@ -14,7 +14,7 @@ public class CatBehavior : MonoBehaviour
     private Vector2 currentDirection;
 
 
-    private Animator animator;
+    // private Animator animator;
 
     void Start()
     {
@@ -26,7 +26,7 @@ public class CatBehavior : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true; // Prevent rotation
-        animator = GetComponent<Animator>();
+        // animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -44,7 +44,7 @@ public class CatBehavior : MonoBehaviour
             {
                 IdleMovement(); // Optional idle movement
             }
-            animator.SetFloat("speed", rb.velocity.magnitude);
+            // animator.SetFloat("speed", rb.velocity.magnitude);
             if ((facingRight && rb.velocity.x < -1e-5) || (!facingRight && rb.velocity.x > 1e-5))
             {
                 facingRight = !facingRight;

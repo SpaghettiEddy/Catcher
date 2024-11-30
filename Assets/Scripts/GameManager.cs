@@ -16,9 +16,12 @@ public class GameManager : MonoBehaviour
     public bool thirdQuestCompleted = false;
 
     public GameObject catnipInventoryIcon;
+    public GameObject runningShoesInventoryIcon; // Assign in Inspector
 
 
     public GameObject Catnip;
+    public GameObject Trainers;
+
 
     private void Awake()
     {
@@ -88,6 +91,7 @@ public class GameManager : MonoBehaviour
     {
         // Activate the plant
         Catnip.SetActive(true);
+        Trainers.SetActive(true);
     }
 
     public void AddCatnipToInventory()
@@ -96,4 +100,9 @@ public class GameManager : MonoBehaviour
         catnipInventoryIcon.SetActive(true);
     }
 
+    public void AddRunningShoesToInventory()
+    {
+        // Activate the RunningShoes icon in the inventory UI
+        runningShoesInventoryIcon.SetActive(true);
+    }
 }
