@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dialogueText;
     public GameObject helloButton;
     public GameObject readyButton;
+    public GameObject dialogueBox;
 
     private Queue<string> sentences;
     // Start is called before the first frame update
@@ -18,12 +19,14 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
 
         readyButton.SetActive(false);
+        dialogueBox.SetActive(false);
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
         
         helloButton.SetActive(false);
+        dialogueBox.SetActive(true);
 
         nameText.text = dialogue.name;
 
@@ -71,6 +74,7 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("End of conversation");
 
+        dialogueBox.SetActive(false);
         readyButton.SetActive(true);
     }
 }
