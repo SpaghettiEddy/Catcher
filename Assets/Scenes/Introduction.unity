@@ -1185,10 +1185,18 @@ MonoBehaviour:
   dialogue:
     name: Megan
     sentences:
-    - Hello! Welcome to Whiskerville!! I'm so glad you have arrived.
-    - 'Many villagers have lost their cats. '
-    - ' We need your help finding them.'
-    - Ready...?!
+    - Hello!!! Welcome to Whiskerville!!! We are so happy that famous cat whisperer
+      has arrived!!
+    - 'My name is Kathrine and I am the leader of the village. '
+    - 'We are a town of cat lovers. Everyone here is so friendly and knows each other''s
+      cats. '
+    - 'Recently, we are facing an epidemic of our cats running away! We don''t know
+      what to do. We are in complete and utter distress without our cats. '
+    - ' We need your help finding and catching them!!! '
+    - 'As you catch each cat, you will perfect you cat catching skills which will
+      help you catch the more difficult cats. Villagers might give you extra tools
+      or toys that could help you lure the cat. '
+    - Thank you for coming here! Are you ready for your first mission?!!!
 --- !u!114 &1202877091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1910,8 +1918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 16.524, y: -0.000030517578}
-  m_SizeDelta: {x: 1163.9316, y: 417.36}
+  m_AnchoredPosition: {x: 2.5021973, y: -17.7395}
+  m_SizeDelta: {x: 1163.9316, y: 334.8389}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132837064
 MonoBehaviour:
