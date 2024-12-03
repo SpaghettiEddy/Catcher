@@ -867,6 +867,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 867514269}
+    - target: {fileID: 8523006364657125828, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
+      propertyPath: dialoguePannel
+      value: 
+      objectReference: {fileID: 243793918}
     - target: {fileID: 8819712402361278697, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
       propertyPath: m_BodyType
       value: 2
