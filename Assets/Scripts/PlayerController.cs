@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject catnipPrefab;
     private bool hasCatnip = false;
+    private bool hasTrainers;
 
     private float catnipCooldown = 10f; // Cooldown duration in seconds
     private float lastCatnipTime = -10f; // Time when the last catnip was spawned
@@ -21,6 +22,14 @@ public class PlayerController : MonoBehaviour
     private float speedBoostDuration = 2f;
     private float speedBoostCooldown = 5f;
     private float lastSpeedBoostTime = -5f;
+
+
+    private void Start()
+    {
+        // Retrieve player state from GameManager
+        hasCatnip = GameManager.instance.hasCatnip;
+        hasRunningShoes = GameManager.instance.hasTrainers;
+    }
 
     private void Awake()
     {
@@ -86,6 +95,7 @@ public class PlayerController : MonoBehaviour
     public void CollectCatnip()
     {
         hasCatnip = true;
+        GameManager.instance.hasCatnip = true; // Update GameManager
         Debug.Log("Catnip collected");
 
     }
@@ -93,6 +103,8 @@ public class PlayerController : MonoBehaviour
     public void EnableRunningShoes()
     {
         hasRunningShoes = true;
+        GameManager.instance.hasTrainers = true; // Update GameManager
+        Debug.Log("Running Shoes collected");
     }
 
     private IEnumerator SpeedBoost()

@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     public bool thirdQuestCompleted = false;
 
     public bool isCatnipIconActive = false;
+    
+    public bool hasCatnip = false;
+    public bool hasTrainers = false;
 
 
     private void Awake()

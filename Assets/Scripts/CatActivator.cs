@@ -8,7 +8,10 @@ public class CatActivator : MonoBehaviour
     {
         if (GameState.isJaneFirstDialogueCompleted)
         {
-            catGameObject.SetActive(true);
+            if (!GameManager.instance.firstQuestCompleted)
+            {
+                catGameObject.SetActive(true);
+            }
         }
     }
 }
