@@ -53,7 +53,12 @@ public class PlayerController : MonoBehaviour
             if (Time.time - lastCatnipTime >= catnipCooldown)
             {
                 // Spawn the Catnip object next to the player
-                Instantiate(catnipPrefab, transform.position + Vector3.right, Quaternion.identity);
+                GameObject spawnedCatnip = Instantiate(catnipPrefab, transform.position + Vector3.right, Quaternion.identity);
+
+                // Set the spawned catnip to not be collectable by the player
+                Catnip catnipScript = spawnedCatnip.GetComponent<Catnip>();
+                catnipScript.isCollectableByPlayer = false;
+
                 lastCatnipTime = Time.time; // Reset the cooldown timer
             }
             else

@@ -15,12 +15,7 @@ public class GameManager : MonoBehaviour
     public bool secondQuestCompleted = false;
     public bool thirdQuestCompleted = false;
 
-    public GameObject catnipInventoryIcon;
-    public GameObject runningShoesInventoryIcon; // Assign in Inspector
-
-
-    public GameObject Catnip;
-    public GameObject Trainers;
+    public bool isCatnipIconActive = false;
 
 
     private void Awake()
@@ -41,11 +36,11 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        // Instantiate player if not already in the scene
-        if (GameObject.FindGameObjectWithTag("Player") == null)
-        {
-            SpawnPlayer(Vector3.zero); // You can set a default spawn position
-        }
+        // // Instantiate player if not already in the scene
+        // if (GameObject.FindGameObjectWithTag("Player") == null)
+        // {
+        //     SpawnPlayer(Vector3.zero); // You can set a default spawn position
+        // }
     }
 
     // Method to spawn player at a specific position
@@ -68,41 +63,51 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Move player to the next spawn position
-        if (playerInstance == null)
+        if (scene.name != "Start Game" && scene.name != "Introduction")
         {
-            SpawnPlayer(nextSpawnPosition);
+            // Move player to the next spawn position
+            if (playerInstance == null)
+            {
+                SpawnPlayer(nextSpawnPosition);
+            }
+            else
+            {
+                playerInstance.transform.position = nextSpawnPosition;
+            }
+
+            CinemachineVirtualCamera vCam = FindObjectOfType<CinemachineVirtualCamera>();
+
+            if (vCam != null)
+            {
+                // Assign the player's transform to the camera's Follow and LookAt
+                vCam.Follow = playerInstance.transform;
+            }
+        }
+    }
+
+    public void SetCatnipIconActive(bool isActive)
+    {
+        isCatnipIconActive = isActive;
+
+        if (UIManager.instance != null)
+        {
+            UIManager.instance.UpdateCatnipIcon(isActive);
         }
         else
         {
-            playerInstance.transform.position = nextSpawnPosition;
-        }
-
-        CinemachineVirtualCamera vCam = FindObjectOfType<CinemachineVirtualCamera>();
-
-        if (vCam != null)
-        {
-            // Assign the player's transform to the camera's Follow and LookAt
-            vCam.Follow = playerInstance.transform;
+            Debug.LogWarning("UIManager.instance is null in GameManager.");
         }
     }
 
-    public void CompleteFirstQuest()
+
+
+    public void LoadIntroductionScene()
     {
-        // Activate the plant
-        Catnip.SetActive(true);
-        Trainers.SetActive(true);
+        SceneManager.LoadScene("Introduction");
     }
 
-    public void AddCatnipToInventory()
+    public void LoadTownMap()
     {
-        // Activate the catnip icon in the inventory UI
-        catnipInventoryIcon.SetActive(true);
-    }
-
-    public void AddRunningShoesToInventory()
-    {
-        // Activate the RunningShoes icon in the inventory UI
-        runningShoesInventoryIcon.SetActive(true);
+        SceneManager.LoadScene("Town Map");
     }
 }

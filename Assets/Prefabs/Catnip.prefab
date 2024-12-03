@@ -93,11 +93,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2415120845394801171}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bad83f430f4034832ba0ae8cbd07f754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  catnipIcon: {fileID: 2801858813714373507, guid: 844dfa8d64a1747f98f722e22d0c8619, type: 3}
+  isCollectableByPlayer: 1
 --- !u!61 &326450436523138475
 BoxCollider2D:
   m_ObjectHideFlags: 0
