@@ -11099,6 +11099,18 @@ PrefabInstance:
       propertyPath: orthographic size
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.25490198
+      objectReference: {fileID: 0}
+    - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.41568628
+      objectReference: {fileID: 0}
     - target: {fileID: 2571047937614480255, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: m_Name
       value: Main Camera
@@ -15037,6 +15049,51 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a387670a77944929a71d67d10ad30ad, type: 3}
+--- !u!1 &1308040574
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308040576}
+  - component: {fileID: 1308040575}
+  m_Layer: 0
+  m_Name: Cat Activator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1308040575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308040574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e0e434d7af2a42e6a0fc59671046088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  catGameObject: {fileID: 2079804142}
+--- !u!4 &1308040576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308040574}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.980573, y: 2.2329097, z: 0.32637718}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1321486982
 GameObject:
   m_ObjectHideFlags: 0
@@ -31312,11 +31369,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cat 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6556934706636200326, guid: 9265b80a2e5994b37abeb6c62350f4e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5528519885103877653, guid: 9265b80a2e5994b37abeb6c62350f4e5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9265b80a2e5994b37abeb6c62350f4e5, type: 3}
+--- !u!1 &2079804142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6556934706636200326, guid: 9265b80a2e5994b37abeb6c62350f4e5, type: 3}
+  m_PrefabInstance: {fileID: 2079804141}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -31328,3 +31395,4 @@ SceneRoots:
   - {fileID: 1190692701}
   - {fileID: 1896862127}
   - {fileID: 2079804141}
+  - {fileID: 1308040576}

@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: 4412484663132576715}
   - component: {fileID: 5218575551327537973}
   - component: {fileID: 5571750159686365533}
-  - component: {fileID: 6757316702028153875}
   - component: {fileID: 4653081974387236401}
-  - component: {fileID: 8741276769020612750}
   - component: {fileID: 8033139638613867015}
   m_Layer: 0
   m_Name: ansel
@@ -156,51 +154,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.48, y: 0.32}
   m_EdgeRadius: 0
---- !u!61 &6757316702028153875
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6349739819856936028}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
-    newSize: {x: 0.48, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.48, y: 0.32}
-  m_EdgeRadius: 0.1
 --- !u!50 &4653081974387236401
 Rigidbody2D:
   serializedVersion: 4
@@ -228,18 +181,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8741276769020612750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6349739819856936028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b8f4d150dfb4f65a7ac9f2a86cc5c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8033139638613867015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,3 +203,4 @@ MonoBehaviour:
     m_Bits: 0
   isCaught: 0
   facingRight: 1
+  catnip: {fileID: 2415120845394801171, guid: 56a22f4e5625a4fd283c53eb446d4d7b, type: 3}

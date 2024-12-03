@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8819712402361278697}
   - component: {fileID: 1522371625554836284}
   - component: {fileID: 3039490165320772458}
-  - component: {fileID: 5570917918489266443}
+  - component: {fileID: 8523006364657125828}
   m_Layer: 0
   m_Name: NPCC
   m_TagString: Untagged
@@ -181,7 +181,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.1825}
   m_EdgeRadius: 0
---- !u!114 &5570917918489266443
+--- !u!114 &8523006364657125828
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,15 +190,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 2902235691217531503}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e6f8d8c1a3234084bb15dd0e51fa318, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b82ca58d9ed542458d5c483abddf09b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 5
-  moveSpeed: 3
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 1024
-  isCaught: 0
+  npcName: Librarian (Stella)
+  catBehavior: {fileID: 6642532596307043166, guid: 9265b80a2e5994b37abeb6c62350f4e5, type: 3}
+  dialoguePannel: {fileID: 0}
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogueBeforeItem:
+  - Welcome to the library! I have been working here for 10 years. My name is Stella!
+    It' so nice to meet you!
+  - The library has always had a community cat. We have Hazel who has been here longer
+    than I have!
+  - We recently, got a new cat named Basil and she is a little over a year. She has
+    so much spunk and life to her. She's a little naughty at times as well.
+  - A few days ago, when I walked in to open the library and I went to feed the cats.
+    I noticed basil was gone. I haven't been able to find her anywhere. I also noticed
+    the window was left open accidently so I think she escaped.
+  - She usually loves to hang around the Old Train Station. I would check there.
+    Remember she is young and fiesty so she is gonna be hard to catch!
+  dialogueAfterItem:
+  - Aw! Thank you so much! Even though they haven't know each other for long, Hazel
+    has been so sad with Basil gone!
+  - I will make sure everything is locked up! So she won't escape again.
+  - Taking care of these cats are the best part of my job!
+  - I've heard you have been such a big help to our village. Explore our town while
+    you are here!
+  currentDialogue: []
+  wordSpeed: 0.08
+  sentenceWait: 0.6
+  playerIsClose: 0
+  itemDelivered: 0

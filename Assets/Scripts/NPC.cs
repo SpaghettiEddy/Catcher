@@ -7,6 +7,7 @@ using TMPro;
 public class NPC : MonoBehaviour
 {
     public string npcName;
+    public GameManager gameManager;
     public GameObject dialoguePannel;
     public TMP_Text nameText;
     public TMP_Text dialogueText;
@@ -23,6 +24,14 @@ public class NPC : MonoBehaviour
     void Start()
     {
         currentDialogue = dialogueBeforeItem;
+        gameManager = FindObjectOfType<GameManager>();
+
+        if (gameManager.firstQuestCompleted)
+        {
+            itemDelivered = true;
+            currentDialogue = dialogueAfterItem;
+            zeroText();
+        }
     }
 
     public void NextLine()

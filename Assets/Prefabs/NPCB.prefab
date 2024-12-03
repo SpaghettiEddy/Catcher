@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8819712402361278697}
   - component: {fileID: 1522371625554836284}
   - component: {fileID: 3039490165320772458}
-  - component: {fileID: 5570917918489266443}
+  - component: {fileID: 6023200956238156209}
   m_Layer: 0
   m_Name: NPCB
   m_TagString: Untagged
@@ -181,7 +181,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.1825}
   m_EdgeRadius: 0
---- !u!114 &5570917918489266443
+--- !u!114 &6023200956238156209
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,15 +190,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 2902235691217531503}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e6f8d8c1a3234084bb15dd0e51fa318, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b82ca58d9ed542458d5c483abddf09b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 5
-  moveSpeed: 3
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  obstacleLayer:
-    serializedVersion: 2
-    m_Bits: 1024
-  isCaught: 0
+  npcName: Jane
+  catBehavior: {fileID: 6642532596307043166, guid: b5d193756e91849de9c70f7eb9181ae3, type: 3}
+  dialoguePannel: {fileID: 0}
+  nameText: {fileID: 0}
+  dialogueText: {fileID: 0}
+  dialogueBeforeItem:
+  - Hello! My name is Jane. I really need your help.
+  - I just lost my cat last night. Her name is Shadow. She loves to try and run outside.
+  - I came home from work, and when I opened the door she escaped!
+  - I tried running after her but I hurt my foot a few days ago and I couldn't chase
+    her fast or far enough.
+  - She's somewhere running around the Town!
+  - Can you please find her and return her safely?
+  dialogueAfterItem:
+  - Thank you so much! I'm not sure what I would have done without you.
+  - I know my neighbor Giselle lost her cat almost a week ago. She lives right by
+    the Cafe!
+  - Go to her house next, she needs your help!
+  currentDialogue: []
+  wordSpeed: 0.07
+  sentenceWait: 0.6
+  playerIsClose: 0
+  itemDelivered: 0

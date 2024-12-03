@@ -2019,7 +2019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4168481455394731621, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4753284315455516786, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
       propertyPath: m_Name
@@ -2959,7 +2959,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: orthographic size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -3763,19 +3763,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
       propertyPath: m_Size.x
-      value: 1.3618469
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
       propertyPath: m_Size.y
-      value: 1.6189111
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
       propertyPath: m_Offset.x
-      value: -0.07429695
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
       propertyPath: m_Offset.y
-      value: -0.3924201
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
       propertyPath: m_IsTrigger
@@ -3821,59 +3821,94 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2729711106388976574, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
-    - {fileID: 8819712402361278697, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+    - target: {fileID: 8057482411162964403, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 1958521397}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: wordSpeed
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 905289246}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: sentenceWait
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialoguePannel
+      value: 
+      objectReference: {fileID: 1177551768}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueAfterItem.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueBeforeItem.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueAfterItem.Array.data[0]
+      value: Wow! It feels like a lifetime since I have seen her. I've missed her
+        so much!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueAfterItem.Array.data[1]
+      value: I can't thank you enough. You are truly the best. I have these old shoes
+        that could maybe help you catch the next cat. They give you a speed boost
+        sometimes.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueAfterItem.Array.data[2]
+      value: The town library cat Historia disappeared a while ago. Go to talk the
+        librarian and she can tell you more information. Thank you again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[0]
+      value: Hi, I can't believe the cat whisperer is here!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[1]
+      value: My name is Giselle. I lost my cat five days ago. Her name is Marshmellow.
+        She loves nature, so I take her on a walk everyday.
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[2]
+      value: 'She somehow broke out of her collar and leash. She went chasing after
+        a squirrel!! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[3]
+      value: She ran so far into the woods and I couldn't find her. I tried everything...
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[4]
+      value: Her favorite treat is catnip, it didn't work for me but maybe it will
+        for you!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 9098214891605751291, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[5]
+      value: I know she is in the woods somewhere!
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2902235691217531503, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2082909673}
-    - targetCorrespondingSourceObject: {fileID: 2902235691217531503, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2082909672}
   m_SourcePrefab: {fileID: 100100000, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
 --- !u!1 &2082909671 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2902235691217531503, guid: dea2b3d1a19004bd6947561bf95c138f, type: 3}
   m_PrefabInstance: {fileID: 2082909670}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2082909672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2082909671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b82ca58d9ed542458d5c483abddf09b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcName: Giselle
-  dialoguePannel: {fileID: 1177551768}
-  nameText: {fileID: 1958521397}
-  dialogueText: {fileID: 905289246}
-  dialogueBeforeItem:
-  - Hi, I can't believe the cat whisperer is here!
-  - My name is Giselle. I lost my cat five days ago. Her name is Marshmellow. She
-    loves nature, so I take her on a walk everyday.
-  - 'She somehow broke out of her collar and leash. She went chasing after a squirrel!! '
-  - She ran so far into the woods and I couldn't find her. I tried everything...
-  - Her favorite treat is catnip, it didn't work for me but maybe it will for you!!
-  - I know she is in the woods somewhere!
-  dialogueAfterItem: []
-  currentDialogue:
-  - Wow! It feels like a lifetime since I have seen her. I've missed her so much!
-  - I can't thank you enough. You are truly the best. I have these old shoes that
-    could maybe help you catch the next cat. They give you a speed boost sometimes.
-  - The town library cat Historia disappeared a while ago. Go to talk the librarian
-    and she can tell you more information. Thank you again!
-  wordSpeed: 0.07
-  sentenceWait: 0.6
-  playerIsClose: 0
-  itemDelivered: 0
 --- !u!70 &2082909673
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3906,8 +3941,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.034671843, y: -0.39625132}
-  m_Size: {x: 0.74190223, y: 1.2074974}
+  m_Offset: {x: 0, y: -0.4}
+  m_Size: {x: 0.75, y: 1.25}
   m_Direction: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

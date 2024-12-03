@@ -261,7 +261,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4168481455394731621, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4753284315455516786, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
       propertyPath: m_Name
@@ -793,19 +793,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
       propertyPath: m_Size.x
-      value: 4.5013003
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
       propertyPath: m_Size.y
-      value: 2.8510592
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
       propertyPath: m_Offset.x
-      value: 0.0026876926
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
       propertyPath: m_Offset.y
-      value: -1.0099965
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
       propertyPath: m_IsTrigger
@@ -855,64 +855,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8523006364657125828, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 1740719599}
+    - target: {fileID: 8523006364657125828, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
+      propertyPath: wordSpeed
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523006364657125828, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 867514269}
+    - target: {fileID: 8819712402361278697, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5570917918489266443, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
-    - {fileID: 8819712402361278697, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2902235691217531503, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 279621402}
-    - targetCorrespondingSourceObject: {fileID: 2902235691217531503, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 279621401}
   m_SourcePrefab: {fileID: 100100000, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
 --- !u!1 &279621400 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2902235691217531503, guid: 5d3dd6975f26f476392270dbca4f194c, type: 3}
   m_PrefabInstance: {fileID: 279621399}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &279621401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 279621400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b82ca58d9ed542458d5c483abddf09b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcName: Librarian (Stella)
-  dialoguePannel: {fileID: 243793918}
-  nameText: {fileID: 1740719599}
-  dialogueText: {fileID: 867514269}
-  dialogueBeforeItem:
-  - Welcome to the library! I have been working here for 10 years. My name is Stella!
-    It' so nice to meet you!
-  - The library has always had a community cat. We have Hazel who has been here longer
-    than I have!
-  - We recently, got a new cat named Basil and she is a little over a year. She has
-    so much spunk and life to her. She's a little naughty at times as well.
-  - A few days ago, when I walked in to open the library and I went to feed the cats.
-    I noticed basil was gone. I haven't been able to find her anywhere. I also noticed
-    the window was left open accidently so I think she escaped.
-  - She usually loves to hang around the Old Train Station. I would check there.
-    Remember she is young and fiesty so she is gonna be hard to catch!
-  dialogueAfterItem:
-  - Aw! Thank you so much! Even though they haven't know each other for long, Hazel
-    has been so sad with Basil gone!
-  - I will make sure everything is locked up! So she won't escape again.
-  - Taking care of these cats are the best part of my job!
-  - Iv'e heard you have been such a big help to our village. Explore our town while
-    you are here!
-  currentDialogue: []
-  wordSpeed: 0.08
-  sentenceWait: 0.6
-  playerIsClose: 0
-  itemDelivered: 0
 --- !u!70 &279621402
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -945,8 +917,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02941513, y: -0.67301655}
-  m_Size: {x: 1.6277518, y: 2.066543}
+  m_Offset: {x: 0, y: -0.5}
+  m_Size: {x: 0.75, y: 1.25}
   m_Direction: 0
 --- !u!1001 &333895681
 PrefabInstance:
@@ -958,7 +930,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: orthographic size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: m_BackGroundColor.b

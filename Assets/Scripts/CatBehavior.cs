@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class CatBehavior : MonoBehaviour
 {
+    public static CatBehavior instance;
     public float detectionRadius = 5f;   // How close the player can get before the cat runs
     public float moveSpeed = 3f;         // Speed at which the cat moves away
+    public float nearCatnip = 1.5f;
     public LayerMask playerLayer;        // Layer to identify the player
     public LayerMask obstacleLayer;      // Layer to identify obstacles
     public bool isCaught = false;        // Has the cat been caught?
@@ -34,6 +36,12 @@ public class CatBehavior : MonoBehaviour
     void Update()
     {
         if (isCaught) return; // Stop behavior if caught
+
+        // float catnipDistance = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Catnip").transform.position);
+        // if (catnipDistance < detectionRadius)
+        // {
+        //     moveSpeed = nearCatnip;
+        // }
 
         if (playerTransform != null)
         {

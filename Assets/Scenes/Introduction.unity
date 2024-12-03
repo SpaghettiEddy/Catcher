@@ -1183,9 +1183,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Megan
+    name: Kathrine
     sentences:
-    - Hello!!! Welcome to Whiskerville!!! We are so happy that famous cat whisperer
+    - Hello!!! Welcome to Whiskerville!!! We are so happy that our famous cat whisperer
       has arrived!!
     - 'My name is Kathrine and I am the leader of the village. '
     - 'We are a town of cat lovers. Everyone here is so friendly and knows each other''s
@@ -1193,10 +1193,10 @@ MonoBehaviour:
     - 'Recently, we are facing an epidemic of our cats running away! We don''t know
       what to do. We are in complete and utter distress without our cats. '
     - ' We need your help finding and catching them!!! '
-    - 'As you catch each cat, you will perfect you cat catching skills which will
+    - 'As you catch each cat, you will perfect your cat catching skills which will
       help you catch the more difficult cats. Villagers might give you extra tools
       or toys that could help you lure the cat. '
-    - Thank you for coming here! Are you ready for your first mission?!!!
+    - Thank you for coming here! Are you ready for your first mission??
 --- !u!114 &1202877091
 MonoBehaviour:
   m_ObjectHideFlags: 0

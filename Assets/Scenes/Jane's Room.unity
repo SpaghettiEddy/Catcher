@@ -1441,19 +1441,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
       propertyPath: m_Size.x
-      value: 1.3626857
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
       propertyPath: m_Size.y
-      value: 2.0995803
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
       propertyPath: m_Offset.x
-      value: 0.028755903
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
       propertyPath: m_Offset.y
-      value: -0.30861974
+      value: -0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3039490165320772458, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
       propertyPath: m_IsTrigger
@@ -1499,15 +1499,82 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 1143862449}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: wordSpeed
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 2116966819}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: sentenceWait
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialoguePannel
+      value: 
+      objectReference: {fileID: 159830882}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueAfterItem.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueBeforeItem.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueAfterItem.Array.data[0]
+      value: Thank you much! I'm not sure what I would have done without you.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueAfterItem.Array.data[1]
+      value: I know my neighbor Giselle lost her cat almost a week ago. She lives
+        by the Cafe!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueAfterItem.Array.data[2]
+      value: Go to her house next, she needs your help!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[0]
+      value: Hello! My name is Jane. I really need your help.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[1]
+      value: I just lost my cat last night. Her name is Shadow. She loves to try
+        to run outside.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[2]
+      value: I came home from work and when I opened the door she escaped!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[3]
+      value: I tried running after her but I hurt my foot a few days ago and I couldn't
+        chase her fast or far enough.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[4]
+      value: She's somewhere running around the town!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6023200956238156209, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: dialogueBeforeItem.Array.data[5]
+      value: Can you please find her and return her safely?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819712402361278697, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5570917918489266443, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
-    - {fileID: 8819712402361278697, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2902235691217531503, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1003539306}
     - targetCorrespondingSourceObject: {fileID: 2902235691217531503, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1003539307}
@@ -1517,39 +1584,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2902235691217531503, guid: 8eb57368a6b74464185e4c62c300d04a, type: 3}
   m_PrefabInstance: {fileID: 1003539304}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1003539306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003539305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b82ca58d9ed542458d5c483abddf09b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npcName: Jane
-  dialoguePannel: {fileID: 159830882}
-  nameText: {fileID: 1143862449}
-  dialogueText: {fileID: 2116966819}
-  dialogueBeforeItem:
-  - Hello! My name is Jane. I really need your help.
-  - I just lost my cat last night. Her name is Shadow. She loves to try to run outside.
-  - I came home from work and when I opened the door she escaped!
-  - I tried running after her but I hurt my foot a few days ago and I couldn't chase
-    her fast or far enough.
-  - She's somewhere running around the town!
-  - Can you please find her and return her safely?
-  dialogueAfterItem:
-  - Thank you much I'm not sure what I would have done without you.
-  - 'I know my neighbor Giselle lost her cat almost a week ago. '
-  - Go to her house next, she needs your help!!!
-  currentDialogue: []
-  wordSpeed: 0.07
-  sentenceWait: 0.6
-  playerIsClose: 0
-  itemDelivered: 0
 --- !u!70 &1003539307
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1582,8 +1616,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.019170582, y: -0.25401318}
-  m_Size: {x: 0.50467646, y: 1.4919736}
+  m_Offset: {x: 0, y: -0.4}
+  m_Size: {x: 0.75, y: 1.25}
   m_Direction: 0
 --- !u!1 &1050784142
 GameObject:
@@ -3479,7 +3513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4168481455394731621, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4753284315455516786, guid: e6ce6a2a89c4c438a81af19e5e0d5eee, type: 3}
       propertyPath: m_Name
@@ -4137,7 +4171,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: orthographic size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2530147683045348366, guid: e8200e57ef2e2441991705abcafdca45, type: 3}
       propertyPath: m_BackGroundColor.b

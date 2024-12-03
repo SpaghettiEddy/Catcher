@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 8928779909780965985}
   - component: {fileID: 6642532596307043166}
   - component: {fileID: 1973195722972127006}
-  - component: {fileID: 5528519885103877653}
   m_Layer: 0
   m_Name: Cat 2
   m_TagString: Untagged
@@ -183,6 +182,7 @@ MonoBehaviour:
     m_Bits: 1024
   isCaught: 0
   facingRight: 1
+  catnip: {fileID: 2415120845394801171, guid: 56a22f4e5625a4fd283c53eb446d4d7b, type: 3}
 --- !u!95 &1973195722972127006
 Animator:
   serializedVersion: 5
@@ -204,15 +204,3 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5528519885103877653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6556934706636200326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6b8f4d150dfb4f65a7ac9f2a86cc5c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
