@@ -44223,6 +44223,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 2902235691217531503, guid: a4193fb393b0e4f9aafd5f3b5f839551, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2902235691217531503, guid: a4193fb393b0e4f9aafd5f3b5f839551, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6023200956238156209}
   m_Layer: 0
   m_Name: NPCB
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcName: Jane
-  catBehavior: {fileID: 6642532596307043166, guid: b5d193756e91849de9c70f7eb9181ae3, type: 3}
+  gameManager: {fileID: 0}
   dialoguePannel: {fileID: 0}
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}

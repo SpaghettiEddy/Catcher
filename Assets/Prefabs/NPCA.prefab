@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 9098214891605751291}
   m_Layer: 0
   m_Name: NPCA
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcName: Giselle
-  catBehavior: {fileID: 8033139638613867015, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+  gameManager: {fileID: 0}
   dialoguePannel: {fileID: 0}
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}

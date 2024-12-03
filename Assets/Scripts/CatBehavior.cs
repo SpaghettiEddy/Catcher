@@ -3,6 +3,7 @@ using UnityEngine;
 public class CatBehavior : MonoBehaviour
 {
     public static CatBehavior instance;
+    public string catName;
     public float detectionRadius = 5f;   // How close the player can get before the cat runs
     public float moveSpeed = 3f;         // Speed at which the cat moves away
     public float nearCatnip = 1.5f;
@@ -137,14 +138,35 @@ public class CatBehavior : MonoBehaviour
             rb.velocity = Vector2.zero; // Stop moving
 
             GameManager gameManager = FindObjectOfType<GameManager>();
-            gameManager.firstQuestCompleted = true;
 
-            catnip.SetActive(true); // Show the catnip object
+            if (catName == "Shadow")
+            {
+                gameManager.firstQuestCompleted = true;
+
+                catnip.SetActive(true); // Show the catnip object
 
 
-            // Destroy the cat GameObject
-            Destroy(gameObject);
-            Debug.Log("Cat caught!");
+                // Destroy the cat GameObject
+                Destroy(gameObject);
+                Debug.Log("Cat caught!");
+            }
+            if (catName == "Ansel")
+            {
+                gameManager.secondQuestCompleted = true;
+
+                // Destroy the cat GameObject
+                Destroy(gameObject);
+                Debug.Log("Cat caught!");
+            }
+            if (catName == "Basil")
+            {
+                gameManager.thirdQuestCompleted = true;
+
+                // Destroy the cat GameObject
+                Destroy(gameObject);
+                Debug.Log("Cat caught!");
+            }
+            
 
             // Optional: Update quest status or trigger next event
             // QuestManager.Instance.UpdateQuestProgress();

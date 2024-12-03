@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8523006364657125828}
   m_Layer: 0
   m_Name: NPCC
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   npcName: Librarian (Stella)
-  catBehavior: {fileID: 6642532596307043166, guid: 9265b80a2e5994b37abeb6c62350f4e5, type: 3}
+  gameManager: {fileID: 0}
   dialoguePannel: {fileID: 0}
   nameText: {fileID: 0}
   dialogueText: {fileID: 0}
