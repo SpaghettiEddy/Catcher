@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Catnip
   - NPC
+  - Cat
   layers:
   - Default
   - TransparentFX

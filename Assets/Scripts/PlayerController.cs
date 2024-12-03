@@ -57,6 +57,7 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         rb.MovePosition(rb.position + speed * Time.fixedDeltaTime * movement);
+        // Inside PlayerController Update() method
         if (hasCatnip && Input.GetKeyDown(KeyCode.C))
         {
             if (Time.time - lastCatnipTime >= catnipCooldown)
@@ -68,14 +69,21 @@ public class PlayerController : MonoBehaviour
                 Catnip catnipScript = spawnedCatnip.GetComponent<Catnip>();
                 catnipScript.isCollectableByPlayer = false;
 
+                // Notify all cats in the scene
+                CatBehavior[] allCats = FindObjectsOfType<CatBehavior>();
+                foreach (CatBehavior cat in allCats)
+                {
+                    cat.ReactToCatnip(spawnedCatnip.transform.position);
+                }
+
                 lastCatnipTime = Time.time; // Reset the cooldown timer
             }
             else
             {
-                // Optional: Provide feedback that catnip is on cooldown
                 Debug.Log("Catnip is on cooldown!");
             }
         }
+
 
         if (hasRunningShoes && Input.GetKeyDown(KeyCode.LeftShift))
         {

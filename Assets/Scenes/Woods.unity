@@ -21222,6 +21222,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6349739819856936028, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: m_TagString
+      value: Cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033139638613867015, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: moveSpeed
+      value: 9.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8033139638613867015, guid: 5cb8b3e41ae274891bf9305c51784a9b, type: 3}
+      propertyPath: detectionRadius
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -1,8 +1,9 @@
 using UnityEngine;
+using System.Collections;
 
 public class CatBehavior : MonoBehaviour
 {
-    public static CatBehavior instance;
+    // Existing variables...
     public string catName;
     public float detectionRadius = 5f;   // How close the player can get before the cat runs
     public float moveSpeed = 3f;         // Speed at which the cat moves away
@@ -18,12 +19,15 @@ public class CatBehavior : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 currentDirection;
 
-
     private Animator animator;
+
+    // Variables for reacting to catnip
+    private bool isReactingToCatnip = false;
+    private float reactionTime = 0.25f; // Duration of reaction to catnip
+    private Vector2 originalVelocity;
 
     void Start()
     {
-        
         // Find the player in the scene
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
@@ -33,35 +37,48 @@ public class CatBehavior : MonoBehaviour
         rb.freezeRotation = true; // Prevent rotation
         animator = GetComponent<Animator>();
     }
-
+    
     void Update()
     {
         if (isCaught) return; // Stop behavior if caught
 
-        // float catnipDistance = Vector2.Distance(transform.position, GameObject.FindGameObjectWithTag("Catnip").transform.position);
-        // if (catnipDistance < detectionRadius)
-        // {
-        //     moveSpeed = nearCatnip;
-        // }
-
-        if (playerTransform != null)
+        // Handle animations and facing direction
+        animator.SetFloat("speed", rb.velocity.magnitude);
+        if ((facingRight && rb.velocity.x < -1e-5) || (!facingRight && rb.velocity.x > 1e-5))
         {
-            float distance = Vector2.Distance(transform.position, playerTransform.position);
-            if (distance < detectionRadius)
+            facingRight = !facingRight;
+            Vector2 ls = transform.localScale;
+            ls.x *= -1;
+            transform.localScale = ls;
+        }
+    }
+
+
+    void FixedUpdate()
+    {
+        if (isCaught) return; // Stop behavior if caught
+
+        if (isReactingToCatnip)
+        {
+            // Do nothing else while reacting to catnip
+        }
+        else
+        {
+            if (playerTransform != null)
             {
-                RunAway();
+                float distance = Vector2.Distance(transform.position, playerTransform.position);
+                if (distance < detectionRadius)
+                {
+                    RunAway();
+                }
+                else
+                {
+                    IdleMovement(); // Optional idle movement
+                }
             }
             else
             {
-                IdleMovement(); // Optional idle movement
-            }
-            animator.SetFloat("speed", rb.velocity.magnitude);
-            if ((facingRight && rb.velocity.x < -1e-5) || (!facingRight && rb.velocity.x > 1e-5))
-            {
-                facingRight = !facingRight;
-                Vector2 ls = transform.localScale;
-                ls.x *= -1;
-                transform.localScale = ls;
+                IdleMovement(); // If playerTransform is null
             }
         }
     }
@@ -69,18 +86,56 @@ public class CatBehavior : MonoBehaviour
     void RunAway()
     {
         // Direction away from the player
-        Vector2 direction = (Vector2)(transform.position - playerTransform.position).normalized;
+        Vector2 desiredDirection = ((Vector2)transform.position - (Vector2)playerTransform.position).normalized;
+        Vector2 desiredVelocity = desiredDirection * moveSpeed;
 
-        // Check for obstacles ahead
-        if (IsObstacleInDirection(direction))
+        // Obstacle avoidance
+        Vector2 avoidance = Vector2.zero;
+
+        // Parameters
+        int numRays = 7; // Number of rays to cast for obstacle detection
+        float raySpacing = 15f; // Degrees between each ray
+        float rayDistance = 1f; // Distance to check for obstacles ahead
+
+        float baseAngle = Mathf.Atan2(desiredDirection.y, desiredDirection.x) * Mathf.Rad2Deg;
+
+        for (int i = -numRays / 2; i <= numRays / 2; i++)
         {
-            // Find an alternate direction
-            direction = FindAlternativeDirection(direction);
+            float angle = baseAngle + i * raySpacing;
+            Vector2 rayDirection = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad));
+
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, rayDirection, rayDistance, obstacleLayer);
+
+            if (hit.collider != null)
+            {
+                // Calculate a force to avoid the obstacle
+                Vector2 obstacleAvoidanceForce = ((Vector2)transform.position - hit.point).normalized / (hit.distance);
+                avoidance += obstacleAvoidanceForce;
+            }
         }
 
-        currentDirection = direction;
-        rb.velocity = currentDirection * moveSpeed;
+        // Limit the avoidance force to prevent extreme direction changes
+        float maxAvoidanceForce = moveSpeed;
+        if (avoidance.magnitude > maxAvoidanceForce)
+        {
+            avoidance = avoidance.normalized * maxAvoidanceForce;
+        }
+
+        // Combine the desired velocity and avoidance
+        Vector2 finalVelocity = desiredVelocity + avoidance;
+
+        // Limit the final velocity to the cat's move speed
+        if (finalVelocity.magnitude > moveSpeed)
+        {
+            finalVelocity = finalVelocity.normalized * moveSpeed;
+        }
+
+        rb.velocity = finalVelocity;
+
+        // Update facing direction based on movement
+        UpdateFacingDirection(rb.velocity);
     }
+
 
     bool IsObstacleInDirection(Vector2 direction)
     {
@@ -145,7 +200,6 @@ public class CatBehavior : MonoBehaviour
 
                 catnip.SetActive(true); // Show the catnip object
 
-
                 // Destroy the cat GameObject
                 Destroy(gameObject);
                 Debug.Log("Cat caught!");
@@ -166,10 +220,72 @@ public class CatBehavior : MonoBehaviour
                 Destroy(gameObject);
                 Debug.Log("Cat caught!");
             }
-            
 
             // Optional: Update quest status or trigger next event
             // QuestManager.Instance.UpdateQuestProgress();
         }
+    }
+
+    // Method to react to catnip
+    public void ReactToCatnip(Vector3 catnipPosition)
+    {
+        if (!isReactingToCatnip && !isCaught)
+        {
+            StartCoroutine(MoveTowardsCatnip(catnipPosition));
+        }
+    }
+
+    void UpdateFacingDirection(Vector2 velocity)
+    {
+        if (velocity.x > 1e-5 && !facingRight)
+        {
+            facingRight = true;
+            Vector3 scale = transform.localScale;
+            scale.x = Mathf.Abs(scale.x);
+            transform.localScale = scale;
+        }
+        else if (velocity.x < -1e-5 && facingRight)
+        {
+            facingRight = false;
+            Vector3 scale = transform.localScale;
+            scale.x = -Mathf.Abs(scale.x);
+            transform.localScale = scale;
+        }
+    }
+
+
+    // Coroutine to move towards catnip
+    private IEnumerator MoveTowardsCatnip(Vector3 catnipPosition)
+    {
+        isReactingToCatnip = true;
+
+        // Stop the cat's current movement and save it
+        originalVelocity = rb.velocity;
+        rb.velocity = Vector2.zero;
+
+        // Calculate direction towards the catnip
+        Vector2 directionToCatnip = (catnipPosition - transform.position).normalized;
+
+        // Turn the cat to face the catnip (if applicable)
+        if ((facingRight && directionToCatnip.x < -1e-5) || (!facingRight && directionToCatnip.x > 1e-5))
+        {
+            facingRight = !facingRight;
+            Vector2 ls = transform.localScale;
+            ls.x *= -1;
+            transform.localScale = ls;
+        }
+
+        float elapsedTime = 0f;
+        while (elapsedTime < reactionTime)
+        {
+            rb.velocity = directionToCatnip * moveSpeed;
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Stop moving towards catnip and resume original movement
+        rb.velocity = originalVelocity;
+
+        isReactingToCatnip = false;
     }
 }
