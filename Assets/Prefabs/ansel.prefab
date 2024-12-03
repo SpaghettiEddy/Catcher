@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 6757316702028153875}
   - component: {fileID: 4653081974387236401}
   - component: {fileID: 8741276769020612750}
-  - component: {fileID: 2601161229369836223}
+  - component: {fileID: 8033139638613867015}
   m_Layer: 0
-  m_Name: Ansel
+  m_Name: ansel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6b8f4d150dfb4f65a7ac9f2a86cc5c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2601161229369836223
+--- !u!114 &8033139638613867015
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -249,9 +249,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6349739819856936028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3b5ea11a36384e28b9d9fd98f5f6f8d, type: 3}
+  m_Script: {fileID: 11500000, guid: d7519740e854b43ef9747e68e14e99d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thingToAvoid: {fileID: 2902235691217531503, guid: a4193fb393b0e4f9aafd5f3b5f839551, type: 3}
-  moveSpeed: 3
-  rb: {fileID: 0}
+  detectionRadius: 5
+  moveSpeed: 5
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  isCaught: 0
+  facingRight: 1
