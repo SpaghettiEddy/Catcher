@@ -9,6 +9,8 @@ public class CatBehavior : MonoBehaviour
     public bool isCaught = false;        // Has the cat been caught?
     public bool facingRight = true;
 
+    public GameObject catnip;
+
     private Transform playerTransform;
     private Rigidbody2D rb;
     private Vector2 currentDirection;
@@ -128,10 +130,13 @@ public class CatBehavior : MonoBehaviour
 
             GameManager gameManager = FindObjectOfType<GameManager>();
             gameManager.firstQuestCompleted = true;
-            gameManager.CompleteFirstQuest();
+
+            catnip.SetActive(true); // Show the catnip object
+
 
             // Destroy the cat GameObject
             Destroy(gameObject);
+            Debug.Log("Cat caught!");
 
             // Optional: Update quest status or trigger next event
             // QuestManager.Instance.UpdateQuestProgress();

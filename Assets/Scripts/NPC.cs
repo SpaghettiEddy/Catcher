@@ -27,7 +27,7 @@ public class NPC : MonoBehaviour
 
     public void NextLine()
     {
-        if(index < currentDialogue.Length -1)
+        if (index < currentDialogue.Length - 1)
         {
             index++;
             dialogueText.text = "";
@@ -51,7 +51,7 @@ public class NPC : MonoBehaviour
     {
         nameText.text = npcName;
 
-        foreach(char letter in currentDialogue[index].ToCharArray())
+        foreach (char letter in currentDialogue[index].ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
@@ -64,18 +64,21 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
+            GameState.isJaneFirstDialogueCompleted = true; // Set the flag
+
             playerIsClose = true;
 
-            if(!dialoguePannel.activeInHierarchy)
+            if (!dialoguePannel.activeInHierarchy)
             {
 
-                dialoguePannel.SetActive(true); 
+                dialoguePannel.SetActive(true);
                 StartCoroutine(Typing());
             }
             else
             {
+                GameState.isJaneFirstDialogueCompleted = true; // Set the flag
                 zeroText();
             }
         }
@@ -83,7 +86,7 @@ public class NPC : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             playerIsClose = false;
             zeroText();
